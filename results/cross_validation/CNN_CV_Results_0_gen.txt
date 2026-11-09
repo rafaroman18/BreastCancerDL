@@ -1,0 +1,1928 @@
+===================================================================================
+======================== SEED RUN 1 =========================
+===================================================================================
+
+Model: BreastCancerDetectionNet
+
+GAN: StyleGAN
+Number of folds: 5
+Number of epochs: 50
+DATASET LEN: 3113
+
+Fold [1/5]...
+
+LEN OF TRAIN: 2486
+LEN OF VAL: 57
+
+--- Training Model: BreastCancerDetectionNet ---
+ · Epoch [1/50], Train Loss: 0.5879, Val Loss: 0.4154
+ · Epoch [2/50], Train Loss: 0.4999, Val Loss: 0.4446
+ · Epoch [3/50], Train Loss: 0.4633, Val Loss: 0.4065
+ · Epoch [4/50], Train Loss: 0.4460, Val Loss: 0.3885
+ · Epoch [5/50], Train Loss: 0.4445, Val Loss: 0.4196
+ · Epoch [6/50], Train Loss: 0.4282, Val Loss: 0.4115
+ · Epoch [7/50], Train Loss: 0.4162, Val Loss: 0.3832
+ · Epoch [8/50], Train Loss: 0.4105, Val Loss: 0.4148
+ · Epoch [9/50], Train Loss: 0.4028, Val Loss: 0.4289
+ · Epoch [10/50], Train Loss: 0.3978, Val Loss: 0.3946
+ · Epoch [11/50], Train Loss: 0.3950, Val Loss: 0.4203
+ · Epoch [12/50], Train Loss: 0.3896, Val Loss: 0.4434
+ · Epoch [13/50], Train Loss: 0.3808, Val Loss: 0.4317
+ · Epoch [14/50], Train Loss: 0.3842, Val Loss: 0.4463
+ · Epoch [15/50], Train Loss: 0.3829, Val Loss: 0.4351
+ · Epoch [16/50], Train Loss: 0.3821, Val Loss: 0.4057
+ · Epoch [17/50], Train Loss: 0.3791, Val Loss: 0.4080
+
+ · No improvement in validation loss for 10 epochs, stopping...
+
+ · Validation accuracy: 91.23%
+ · Confusion Matrix:   [30  4]
+                       [ 1 22]
+
+Fold [2/5]...
+
+LEN OF TRAIN: 2497
+LEN OF VAL: 56
+
+--- Training Model: BreastCancerDetectionNet ---
+ · Epoch [1/50], Train Loss: 0.5669, Val Loss: 0.4971
+ · Epoch [2/50], Train Loss: 0.4898, Val Loss: 0.5204
+ · Epoch [3/50], Train Loss: 0.4714, Val Loss: 0.4909
+ · Epoch [4/50], Train Loss: 0.4462, Val Loss: 0.4653
+ · Epoch [5/50], Train Loss: 0.4630, Val Loss: 0.4716
+ · Epoch [6/50], Train Loss: 0.4214, Val Loss: 0.4798
+ · Epoch [7/50], Train Loss: 0.4109, Val Loss: 0.5046
+ · Epoch [8/50], Train Loss: 0.4454, Val Loss: 0.5208
+ · Epoch [9/50], Train Loss: 0.4716, Val Loss: 0.4465
+ · Epoch [10/50], Train Loss: 0.4036, Val Loss: 0.4585
+ · Epoch [11/50], Train Loss: 0.3925, Val Loss: 0.4454
+ · Epoch [12/50], Train Loss: 0.3875, Val Loss: 0.4387
+ · Epoch [13/50], Train Loss: 0.3798, Val Loss: 0.4567
+ · Epoch [14/50], Train Loss: 0.3808, Val Loss: 0.4907
+ · Epoch [15/50], Train Loss: 0.3776, Val Loss: 0.4526
+ · Epoch [16/50], Train Loss: 0.3951, Val Loss: 0.4687
+ · Epoch [17/50], Train Loss: 0.3873, Val Loss: 0.4523
+ · Epoch [18/50], Train Loss: 0.3843, Val Loss: 0.4487
+ · Epoch [19/50], Train Loss: 0.3683, Val Loss: 0.4594
+ · Epoch [20/50], Train Loss: 0.3666, Val Loss: 0.4762
+ · Epoch [21/50], Train Loss: 0.3619, Val Loss: 0.4515
+ · Epoch [22/50], Train Loss: 0.3586, Val Loss: 0.4565
+
+ · No improvement in validation loss for 10 epochs, stopping...
+
+ · Validation accuracy: 85.71%
+ · Confusion Matrix:   [27  5]
+                       [ 3 21]
+
+Fold [3/5]...
+
+LEN OF TRAIN: 2519
+LEN OF VAL: 54
+
+--- Training Model: BreastCancerDetectionNet ---
+ · Epoch [1/50], Train Loss: 0.5414, Val Loss: 0.5215
+ · Epoch [2/50], Train Loss: 0.4534, Val Loss: 0.4972
+ · Epoch [3/50], Train Loss: 0.4368, Val Loss: 0.4745
+ · Epoch [4/50], Train Loss: 0.4137, Val Loss: 0.5071
+ · Epoch [5/50], Train Loss: 0.3966, Val Loss: 0.4568
+ · Epoch [6/50], Train Loss: 0.3852, Val Loss: 0.4715
+ · Epoch [7/50], Train Loss: 0.3764, Val Loss: 0.4910
+ · Epoch [8/50], Train Loss: 0.3744, Val Loss: 0.4885
+ · Epoch [9/50], Train Loss: 0.3774, Val Loss: 0.4795
+ · Epoch [10/50], Train Loss: 0.3784, Val Loss: 0.4979
+ · Epoch [11/50], Train Loss: 0.3700, Val Loss: 0.4686
+ · Epoch [12/50], Train Loss: 0.3583, Val Loss: 0.4995
+ · Epoch [13/50], Train Loss: 0.3517, Val Loss: 0.4880
+ · Epoch [14/50], Train Loss: 0.3504, Val Loss: 0.4735
+ · Epoch [15/50], Train Loss: 0.3465, Val Loss: 0.4689
+
+ · No improvement in validation loss for 10 epochs, stopping...
+
+ · Validation accuracy: 85.19%
+ · Confusion Matrix:   [31  2]
+                       [ 6 15]
+
+Fold [4/5]...
+
+LEN OF TRAIN: 2497
+LEN OF VAL: 56
+
+--- Training Model: BreastCancerDetectionNet ---
+ · Epoch [1/50], Train Loss: 0.5838, Val Loss: 0.4320
+ · Epoch [2/50], Train Loss: 0.4999, Val Loss: 0.3918
+ · Epoch [3/50], Train Loss: 0.4684, Val Loss: 0.3948
+ · Epoch [4/50], Train Loss: 0.4446, Val Loss: 0.4179
+ · Epoch [5/50], Train Loss: 0.4287, Val Loss: 0.3803
+ · Epoch [6/50], Train Loss: 0.4130, Val Loss: 0.4384
+ · Epoch [7/50], Train Loss: 0.4100, Val Loss: 0.3915
+ · Epoch [8/50], Train Loss: 0.4008, Val Loss: 0.4119
+ · Epoch [9/50], Train Loss: 0.4088, Val Loss: 0.4165
+ · Epoch [10/50], Train Loss: 0.3994, Val Loss: 0.4441
+ · Epoch [11/50], Train Loss: 0.3910, Val Loss: 0.3888
+ · Epoch [12/50], Train Loss: 0.3884, Val Loss: 0.4029
+ · Epoch [13/50], Train Loss: 0.3761, Val Loss: 0.3866
+ · Epoch [14/50], Train Loss: 0.3681, Val Loss: 0.4488
+ · Epoch [15/50], Train Loss: 0.3736, Val Loss: 0.4034
+
+ · No improvement in validation loss for 10 epochs, stopping...
+
+ · Validation accuracy: 91.07%
+ · Confusion Matrix:   [35  1]
+                       [ 4 16]
+
+Fold [5/5]...
+
+LEN OF TRAIN: 2453
+LEN OF VAL: 60
+
+--- Training Model: BreastCancerDetectionNet ---
+ · Epoch [1/50], Train Loss: 0.5614, Val Loss: 0.4357
+ · Epoch [2/50], Train Loss: 0.4965, Val Loss: 0.4517
+ · Epoch [3/50], Train Loss: 0.4599, Val Loss: 0.4265
+ · Epoch [4/50], Train Loss: 0.4313, Val Loss: 0.4329
+ · Epoch [5/50], Train Loss: 0.4226, Val Loss: 0.4234
+ · Epoch [6/50], Train Loss: 0.4211, Val Loss: 0.3995
+ · Epoch [7/50], Train Loss: 0.4053, Val Loss: 0.4186
+ · Epoch [8/50], Train Loss: 0.4080, Val Loss: 0.4235
+ · Epoch [9/50], Train Loss: 0.3953, Val Loss: 0.4136
+ · Epoch [10/50], Train Loss: 0.3900, Val Loss: 0.4252
+ · Epoch [11/50], Train Loss: 0.3786, Val Loss: 0.4295
+ · Epoch [12/50], Train Loss: 0.3657, Val Loss: 0.4446
+ · Epoch [13/50], Train Loss: 0.3611, Val Loss: 0.4272
+ · Epoch [14/50], Train Loss: 0.3629, Val Loss: 0.4550
+ · Epoch [15/50], Train Loss: 0.3620, Val Loss: 0.4296
+ · Epoch [16/50], Train Loss: 0.3555, Val Loss: 0.4354
+
+ · No improvement in validation loss for 10 epochs, stopping...
+
+ · Validation accuracy: 86.67%
+ · Confusion Matrix:   [24  4]
+                       [ 4 28]
+
+
+EXACTITUD - Average validation accuracy: 87.97%
+ESPECIFICIDAD - Average specificity: 89.90%
+PRECISIÓN - Average precision: 87.05%
+EXHAUSTIVIDAD - Average sensitivity: 84.42%
+F1 SCORE - Average F1-score: 85.35%
+
+
+CROSS VALIDATION Time: 4.951675 minutes.
+
+
+===================================================================================
+======================== SEED RUN 2 =========================
+===================================================================================
+
+Model: BreastCancerDetectionNet
+
+GAN: StyleGAN
+Number of folds: 5
+Number of epochs: 50
+DATASET LEN: 3113
+
+Fold [1/5]...
+
+LEN OF TRAIN: 2497
+LEN OF VAL: 56
+
+--- Training Model: BreastCancerDetectionNet ---
+ · Epoch [1/50], Train Loss: 0.5484, Val Loss: 0.5513
+ · Epoch [2/50], Train Loss: 0.4890, Val Loss: 0.4020
+ · Epoch [3/50], Train Loss: 0.4666, Val Loss: 0.3933
+ · Epoch [4/50], Train Loss: 0.4323, Val Loss: 0.4273
+ · Epoch [5/50], Train Loss: 0.4219, Val Loss: 0.4350
+ · Epoch [6/50], Train Loss: 0.4190, Val Loss: 0.3929
+ · Epoch [7/50], Train Loss: 0.3993, Val Loss: 0.3860
+ · Epoch [8/50], Train Loss: 0.4150, Val Loss: 0.3912
+ · Epoch [9/50], Train Loss: 0.3981, Val Loss: 0.4283
+ · Epoch [10/50], Train Loss: 0.3819, Val Loss: 0.3900
+ · Epoch [11/50], Train Loss: 0.3708, Val Loss: 0.3976
+ · Epoch [12/50], Train Loss: 0.3681, Val Loss: 0.4224
+ · Epoch [13/50], Train Loss: 0.3701, Val Loss: 0.3950
+ · Epoch [14/50], Train Loss: 0.3671, Val Loss: 0.3962
+ · Epoch [15/50], Train Loss: 0.3589, Val Loss: 0.3942
+ · Epoch [16/50], Train Loss: 0.3555, Val Loss: 0.4111
+ · Epoch [17/50], Train Loss: 0.3563, Val Loss: 0.3878
+
+ · No improvement in validation loss for 10 epochs, stopping...
+
+ · Validation accuracy: 92.86%
+ · Confusion Matrix:   [36  0]
+                       [ 4 16]
+
+Fold [2/5]...
+
+LEN OF TRAIN: 2508
+LEN OF VAL: 55
+
+--- Training Model: BreastCancerDetectionNet ---
+ · Epoch [1/50], Train Loss: 0.6265, Val Loss: 0.5479
+ · Epoch [2/50], Train Loss: 0.5736, Val Loss: 0.5303
+ · Epoch [3/50], Train Loss: 0.5609, Val Loss: 0.5223
+ · Epoch [4/50], Train Loss: 0.5473, Val Loss: 0.5226
+ · Epoch [5/50], Train Loss: 0.4957, Val Loss: 0.4716
+ · Epoch [6/50], Train Loss: 0.4547, Val Loss: 0.4645
+ · Epoch [7/50], Train Loss: 0.4286, Val Loss: 0.4601
+ · Epoch [8/50], Train Loss: 0.4153, Val Loss: 0.4523
+ · Epoch [9/50], Train Loss: 0.4072, Val Loss: 0.4816
+ · Epoch [10/50], Train Loss: 0.3920, Val Loss: 0.5084
+ · Epoch [11/50], Train Loss: 0.3916, Val Loss: 0.4974
+ · Epoch [12/50], Train Loss: 0.3855, Val Loss: 0.4806
+ · Epoch [13/50], Train Loss: 0.3757, Val Loss: 0.4920
+ · Epoch [14/50], Train Loss: 0.3876, Val Loss: 0.5072
+ · Epoch [15/50], Train Loss: 0.3827, Val Loss: 0.4751
+ · Epoch [16/50], Train Loss: 0.3832, Val Loss: 0.4985
+ · Epoch [17/50], Train Loss: 0.3747, Val Loss: 0.4943
+ · Epoch [18/50], Train Loss: 0.3732, Val Loss: 0.5189
+
+ · No improvement in validation loss for 10 epochs, stopping...
+
+ · Validation accuracy: 78.18%
+ · Confusion Matrix:   [32  2]
+                       [10 11]
+
+Fold [3/5]...
+
+LEN OF TRAIN: 2475
+LEN OF VAL: 58
+
+--- Training Model: BreastCancerDetectionNet ---
+ · Epoch [1/50], Train Loss: 0.6190, Val Loss: 0.5592
+ · Epoch [2/50], Train Loss: 0.5204, Val Loss: 0.4658
+ · Epoch [3/50], Train Loss: 0.4720, Val Loss: 0.4634
+ · Epoch [4/50], Train Loss: 0.4465, Val Loss: 0.4479
+ · Epoch [5/50], Train Loss: 0.4232, Val Loss: 0.4485
+ · Epoch [6/50], Train Loss: 0.4126, Val Loss: 0.4518
+ · Epoch [7/50], Train Loss: 0.4326, Val Loss: 0.4580
+ · Epoch [8/50], Train Loss: 0.4094, Val Loss: 0.4441
+ · Epoch [9/50], Train Loss: 0.4012, Val Loss: 0.4174
+ · Epoch [10/50], Train Loss: 0.3940, Val Loss: 0.4257
+ · Epoch [11/50], Train Loss: 0.3870, Val Loss: 0.4310
+ · Epoch [12/50], Train Loss: 0.3971, Val Loss: 0.4280
+ · Epoch [13/50], Train Loss: 0.3783, Val Loss: 0.4433
+ · Epoch [14/50], Train Loss: 0.3766, Val Loss: 0.4133
+ · Epoch [15/50], Train Loss: 0.3752, Val Loss: 0.4432
+ · Epoch [16/50], Train Loss: 0.3713, Val Loss: 0.4170
+ · Epoch [17/50], Train Loss: 0.3654, Val Loss: 0.4349
+ · Epoch [18/50], Train Loss: 0.3635, Val Loss: 0.4198
+ · Epoch [19/50], Train Loss: 0.3619, Val Loss: 0.4086
+ · Epoch [20/50], Train Loss: 0.3634, Val Loss: 0.4189
+ · Epoch [21/50], Train Loss: 0.3551, Val Loss: 0.4215
+ · Epoch [22/50], Train Loss: 0.3520, Val Loss: 0.4159
+ · Epoch [23/50], Train Loss: 0.3505, Val Loss: 0.4166
+ · Epoch [24/50], Train Loss: 0.3513, Val Loss: 0.4125
+ · Epoch [25/50], Train Loss: 0.3482, Val Loss: 0.4168
+ · Epoch [26/50], Train Loss: 0.3487, Val Loss: 0.4061
+ · Epoch [27/50], Train Loss: 0.3452, Val Loss: 0.4015
+ · Epoch [28/50], Train Loss: 0.3465, Val Loss: 0.4152
+ · Epoch [29/50], Train Loss: 0.3416, Val Loss: 0.3954
+ · Epoch [30/50], Train Loss: 0.3433, Val Loss: 0.4164
+ · Epoch [31/50], Train Loss: 0.3415, Val Loss: 0.4189
+ · Epoch [32/50], Train Loss: 0.3420, Val Loss: 0.4270
+ · Epoch [33/50], Train Loss: 0.3422, Val Loss: 0.4011
+ · Epoch [34/50], Train Loss: 0.3388, Val Loss: 0.4242
+ · Epoch [35/50], Train Loss: 0.3384, Val Loss: 0.4638
+ · Epoch [36/50], Train Loss: 0.3473, Val Loss: 0.4002
+ · Epoch [37/50], Train Loss: 0.3394, Val Loss: 0.4411
+ · Epoch [38/50], Train Loss: 0.3402, Val Loss: 0.4312
+ · Epoch [39/50], Train Loss: 0.3366, Val Loss: 0.4136
+
+ · No improvement in validation loss for 10 epochs, stopping...
+
+ · Validation accuracy: 89.66%
+ · Confusion Matrix:   [28  4]
+                       [ 2 24]
+
+Fold [4/5]...
+
+LEN OF TRAIN: 2508
+LEN OF VAL: 55
+
+--- Training Model: BreastCancerDetectionNet ---
+ · Epoch [1/50], Train Loss: 0.7255, Val Loss: 0.7860
+ · Epoch [2/50], Train Loss: 0.7290, Val Loss: 0.7860
+ · Epoch [3/50], Train Loss: 0.7239, Val Loss: 0.7860
+ · Epoch [4/50], Train Loss: 0.7273, Val Loss: 0.7860
+ · Epoch [5/50], Train Loss: 0.7290, Val Loss: 0.7860
+ · Epoch [6/50], Train Loss: 0.7256, Val Loss: 0.7860
+ · Epoch [7/50], Train Loss: 0.7256, Val Loss: 0.7860
+ · Epoch [8/50], Train Loss: 0.7273, Val Loss: 0.7860
+ · Epoch [9/50], Train Loss: 0.7239, Val Loss: 0.7860
+ · Epoch [10/50], Train Loss: 0.7273, Val Loss: 0.7860
+ · Epoch [11/50], Train Loss: 0.7239, Val Loss: 0.7860
+
+ · No improvement in validation loss for 10 epochs, stopping...
+
+ · Validation accuracy: 52.73%
+ · Confusion Matrix:   [29  0]
+                       [26  0]
+
+Fold [5/5]...
+
+LEN OF TRAIN: 2464
+LEN OF VAL: 59
+
+--- Training Model: BreastCancerDetectionNet ---
+ · Epoch [1/50], Train Loss: 0.6065, Val Loss: 0.5106
+ · Epoch [2/50], Train Loss: 0.4954, Val Loss: 0.4614
+ · Epoch [3/50], Train Loss: 0.4737, Val Loss: 0.4592
+ · Epoch [4/50], Train Loss: 0.4288, Val Loss: 0.4683
+ · Epoch [5/50], Train Loss: 0.4106, Val Loss: 0.4586
+ · Epoch [6/50], Train Loss: 0.4049, Val Loss: 0.4814
+ · Epoch [7/50], Train Loss: 0.3952, Val Loss: 0.4774
+ · Epoch [8/50], Train Loss: 0.3900, Val Loss: 0.4912
+ · Epoch [9/50], Train Loss: 0.3909, Val Loss: 0.4783
+ · Epoch [10/50], Train Loss: 0.3852, Val Loss: 0.4922
+ · Epoch [11/50], Train Loss: 0.3765, Val Loss: 0.4646
+ · Epoch [12/50], Train Loss: 0.3743, Val Loss: 0.4731
+ · Epoch [13/50], Train Loss: 0.3760, Val Loss: 0.5122
+ · Epoch [14/50], Train Loss: 0.3805, Val Loss: 0.5404
+ · Epoch [15/50], Train Loss: 0.3795, Val Loss: 0.5142
+
+ · No improvement in validation loss for 10 epochs, stopping...
+
+ · Validation accuracy: 79.66%
+ · Confusion Matrix:   [23  9]
+                       [ 3 24]
+
+
+EXACTITUD - Average validation accuracy: 78.62%
+ESPECIFICIDAD - Average specificity: 90.70%
+PRECISIÓN - Average precision: 68.61%
+EXHAUSTIVIDAD - Average sensitivity: 62.72%
+F1 SCORE - Average F1-score: 64.50%
+
+
+CROSS VALIDATION Time: 5.787367 minutes.
+
+
+===================================================================================
+======================== SEED RUN 3 =========================
+===================================================================================
+
+Model: BreastCancerDetectionNet
+
+GAN: StyleGAN
+Number of folds: 5
+Number of epochs: 50
+DATASET LEN: 3113
+
+Fold [1/5]...
+
+LEN OF TRAIN: 2497
+LEN OF VAL: 56
+
+--- Training Model: BreastCancerDetectionNet ---
+ · Epoch [1/50], Train Loss: 0.5994, Val Loss: 0.3516
+ · Epoch [2/50], Train Loss: 0.5326, Val Loss: 0.4111
+ · Epoch [3/50], Train Loss: 0.4744, Val Loss: 0.3914
+ · Epoch [4/50], Train Loss: 0.4532, Val Loss: 0.3859
+ · Epoch [5/50], Train Loss: 0.4390, Val Loss: 0.3955
+ · Epoch [6/50], Train Loss: 0.4149, Val Loss: 0.3757
+ · Epoch [7/50], Train Loss: 0.4049, Val Loss: 0.3873
+ · Epoch [8/50], Train Loss: 0.3944, Val Loss: 0.3846
+ · Epoch [9/50], Train Loss: 0.3908, Val Loss: 0.3831
+ · Epoch [10/50], Train Loss: 0.3788, Val Loss: 0.3929
+ · Epoch [11/50], Train Loss: 0.3815, Val Loss: 0.3910
+
+ · No improvement in validation loss for 10 epochs, stopping...
+
+ · Validation accuracy: 91.07%
+ · Confusion Matrix:   [30  3]
+                       [ 2 21]
+
+Fold [2/5]...
+
+LEN OF TRAIN: 2464
+LEN OF VAL: 59
+
+--- Training Model: BreastCancerDetectionNet ---
+ · Epoch [1/50], Train Loss: 0.7290, Val Loss: 0.5903
+ · Epoch [2/50], Train Loss: 0.6201, Val Loss: 0.5820
+ · Epoch [3/50], Train Loss: 0.5889, Val Loss: 0.5480
+ · Epoch [4/50], Train Loss: 0.5640, Val Loss: 0.5612
+ · Epoch [5/50], Train Loss: 0.5664, Val Loss: 0.5275
+ · Epoch [6/50], Train Loss: 0.5518, Val Loss: 0.5566
+ · Epoch [7/50], Train Loss: 0.5467, Val Loss: 0.5320
+ · Epoch [8/50], Train Loss: 0.5423, Val Loss: 0.5275
+ · Epoch [9/50], Train Loss: 0.5374, Val Loss: 0.5461
+ · Epoch [10/50], Train Loss: 0.5365, Val Loss: 0.5457
+ · Epoch [11/50], Train Loss: 0.5298, Val Loss: 0.5443
+ · Epoch [12/50], Train Loss: 0.5278, Val Loss: 0.5284
+ · Epoch [13/50], Train Loss: 0.5269, Val Loss: 0.5420
+ · Epoch [14/50], Train Loss: 0.5230, Val Loss: 0.5421
+ · Epoch [15/50], Train Loss: 0.5211, Val Loss: 0.5566
+
+ · No improvement in validation loss for 10 epochs, stopping...
+
+ · Validation accuracy: 55.93%
+ · Confusion Matrix:   [33  0]
+                       [26  0]
+
+Fold [3/5]...
+
+LEN OF TRAIN: 2486
+LEN OF VAL: 57
+
+--- Training Model: BreastCancerDetectionNet ---
+ · Epoch [1/50], Train Loss: 0.5964, Val Loss: 0.5784
+ · Epoch [2/50], Train Loss: 0.4935, Val Loss: 0.5137
+ · Epoch [3/50], Train Loss: 0.4587, Val Loss: 0.5176
+ · Epoch [4/50], Train Loss: 0.4370, Val Loss: 0.5130
+ · Epoch [5/50], Train Loss: 0.4312, Val Loss: 0.5369
+ · Epoch [6/50], Train Loss: 0.4179, Val Loss: 0.4916
+ · Epoch [7/50], Train Loss: 0.4014, Val Loss: 0.4827
+ · Epoch [8/50], Train Loss: 0.3904, Val Loss: 0.4544
+ · Epoch [9/50], Train Loss: 0.3890, Val Loss: 0.4895
+ · Epoch [10/50], Train Loss: 0.3746, Val Loss: 0.4502
+ · Epoch [11/50], Train Loss: 0.3780, Val Loss: 0.4501
+ · Epoch [12/50], Train Loss: 0.3731, Val Loss: 0.4669
+ · Epoch [13/50], Train Loss: 0.3659, Val Loss: 0.4437
+ · Epoch [14/50], Train Loss: 0.3572, Val Loss: 0.4717
+ · Epoch [15/50], Train Loss: 0.3546, Val Loss: 0.4691
+ · Epoch [16/50], Train Loss: 0.3553, Val Loss: 0.4750
+ · Epoch [17/50], Train Loss: 0.3640, Val Loss: 0.4614
+ · Epoch [18/50], Train Loss: 0.3470, Val Loss: 0.4830
+ · Epoch [19/50], Train Loss: 0.3585, Val Loss: 0.4385
+ · Epoch [20/50], Train Loss: 0.3471, Val Loss: 0.4560
+ · Epoch [21/50], Train Loss: 0.3425, Val Loss: 0.4600
+ · Epoch [22/50], Train Loss: 0.3418, Val Loss: 0.4484
+ · Epoch [23/50], Train Loss: 0.3427, Val Loss: 0.4497
+ · Epoch [24/50], Train Loss: 0.3446, Val Loss: 0.4482
+ · Epoch [25/50], Train Loss: 0.3421, Val Loss: 0.4499
+ · Epoch [26/50], Train Loss: 0.3405, Val Loss: 0.4504
+ · Epoch [27/50], Train Loss: 0.3403, Val Loss: 0.4442
+ · Epoch [28/50], Train Loss: 0.3397, Val Loss: 0.4532
+ · Epoch [29/50], Train Loss: 0.3440, Val Loss: 0.4585
+
+ · No improvement in validation loss for 10 epochs, stopping...
+
+ · Validation accuracy: 84.21%
+ · Confusion Matrix:   [28  3]
+                       [ 6 20]
+
+Fold [4/5]...
+
+LEN OF TRAIN: 2530
+LEN OF VAL: 53
+
+--- Training Model: BreastCancerDetectionNet ---
+ · Epoch [1/50], Train Loss: 0.7486, Val Loss: 0.6906
+ · Epoch [2/50], Train Loss: 0.7488, Val Loss: 0.6906
+ · Epoch [3/50], Train Loss: 0.7502, Val Loss: 0.6906
+ · Epoch [4/50], Train Loss: 0.7481, Val Loss: 0.6906
+ · Epoch [5/50], Train Loss: 0.7485, Val Loss: 0.6906
+ · Epoch [6/50], Train Loss: 0.7467, Val Loss: 0.6906
+ · Epoch [7/50], Train Loss: 0.7498, Val Loss: 0.6906
+ · Epoch [8/50], Train Loss: 0.7488, Val Loss: 0.6906
+ · Epoch [9/50], Train Loss: 0.7478, Val Loss: 0.6906
+ · Epoch [10/50], Train Loss: 0.7488, Val Loss: 0.6906
+ · Epoch [11/50], Train Loss: 0.7485, Val Loss: 0.6906
+ · Epoch [12/50], Train Loss: 0.7478, Val Loss: 0.6906
+ · Epoch [13/50], Train Loss: 0.7474, Val Loss: 0.6906
+ · Epoch [14/50], Train Loss: 0.7485, Val Loss: 0.6906
+ · Epoch [15/50], Train Loss: 0.7492, Val Loss: 0.6906
+ · Epoch [16/50], Train Loss: 0.7471, Val Loss: 0.6906
+ · Epoch [17/50], Train Loss: 0.7478, Val Loss: 0.6906
+ · Epoch [18/50], Train Loss: 0.7464, Val Loss: 0.6906
+
+ · No improvement in validation loss for 10 epochs, stopping...
+
+ · Validation accuracy: 62.26%
+ · Confusion Matrix:   [33  0]
+                       [20  0]
+
+Fold [5/5]...
+
+LEN OF TRAIN: 2475
+LEN OF VAL: 58
+
+--- Training Model: BreastCancerDetectionNet ---
+ · Epoch [1/50], Train Loss: 0.6092, Val Loss: 0.5776
+ · Epoch [2/50], Train Loss: 0.5627, Val Loss: 0.5639
+ · Epoch [3/50], Train Loss: 0.5448, Val Loss: 0.5547
+ · Epoch [4/50], Train Loss: 0.5231, Val Loss: 0.4862
+ · Epoch [5/50], Train Loss: 0.4548, Val Loss: 0.5166
+ · Epoch [6/50], Train Loss: 0.4428, Val Loss: 0.5066
+ · Epoch [7/50], Train Loss: 0.4113, Val Loss: 0.4989
+ · Epoch [8/50], Train Loss: 0.4038, Val Loss: 0.4619
+ · Epoch [9/50], Train Loss: 0.4067, Val Loss: 0.4748
+ · Epoch [10/50], Train Loss: 0.3953, Val Loss: 0.4899
+ · Epoch [11/50], Train Loss: 0.4008, Val Loss: 0.4481
+ · Epoch [12/50], Train Loss: 0.3852, Val Loss: 0.5029
+ · Epoch [13/50], Train Loss: 0.3796, Val Loss: 0.5029
+ · Epoch [14/50], Train Loss: 0.3724, Val Loss: 0.4922
+ · Epoch [15/50], Train Loss: 0.3703, Val Loss: 0.4942
+ · Epoch [16/50], Train Loss: 0.3698, Val Loss: 0.4815
+ · Epoch [17/50], Train Loss: 0.3709, Val Loss: 0.4784
+ · Epoch [18/50], Train Loss: 0.3655, Val Loss: 0.4851
+ · Epoch [19/50], Train Loss: 0.3695, Val Loss: 0.4922
+ · Epoch [20/50], Train Loss: 0.3664, Val Loss: 0.4893
+ · Epoch [21/50], Train Loss: 0.3683, Val Loss: 0.4903
+
+ · No improvement in validation loss for 10 epochs, stopping...
+
+ · Validation accuracy: 82.76%
+ · Confusion Matrix:   [25  8]
+                       [ 2 23]
+
+
+EXACTITUD - Average validation accuracy: 75.25%
+ESPECIFICIDAD - Average specificity: 91.40%
+PRECISIÓN - Average precision: 49.73%
+EXHAUSTIVIDAD - Average sensitivity: 52.05%
+F1 SCORE - Average F1-score: 50.63%
+
+
+CROSS VALIDATION Time: 5.447088 minutes.
+
+
+===================================================================================
+======================== SEED RUN 4 =========================
+===================================================================================
+
+Model: BreastCancerDetectionNet
+
+GAN: StyleGAN
+Number of folds: 5
+Number of epochs: 50
+DATASET LEN: 3113
+
+Fold [1/5]...
+
+LEN OF TRAIN: 2508
+LEN OF VAL: 55
+
+--- Training Model: BreastCancerDetectionNet ---
+ · Epoch [1/50], Train Loss: 0.6200, Val Loss: 0.5303
+ · Epoch [2/50], Train Loss: 0.5405, Val Loss: 0.4686
+ · Epoch [3/50], Train Loss: 0.4814, Val Loss: 0.4159
+ · Epoch [4/50], Train Loss: 0.4650, Val Loss: 0.4119
+ · Epoch [5/50], Train Loss: 0.4560, Val Loss: 0.4170
+ · Epoch [6/50], Train Loss: 0.4401, Val Loss: 0.4048
+ · Epoch [7/50], Train Loss: 0.4366, Val Loss: 0.4632
+ · Epoch [8/50], Train Loss: 0.4258, Val Loss: 0.4049
+ · Epoch [9/50], Train Loss: 0.4098, Val Loss: 0.4156
+ · Epoch [10/50], Train Loss: 0.4138, Val Loss: 0.4098
+ · Epoch [11/50], Train Loss: 0.4140, Val Loss: 0.3826
+ · Epoch [12/50], Train Loss: 0.3943, Val Loss: 0.3994
+ · Epoch [13/50], Train Loss: 0.3989, Val Loss: 0.4253
+ · Epoch [14/50], Train Loss: 0.3912, Val Loss: 0.3892
+ · Epoch [15/50], Train Loss: 0.3810, Val Loss: 0.4176
+ · Epoch [16/50], Train Loss: 0.3827, Val Loss: 0.4068
+ · Epoch [17/50], Train Loss: 0.3790, Val Loss: 0.4068
+ · Epoch [18/50], Train Loss: 0.3796, Val Loss: 0.4000
+ · Epoch [19/50], Train Loss: 0.3745, Val Loss: 0.4228
+ · Epoch [20/50], Train Loss: 0.3727, Val Loss: 0.4199
+ · Epoch [21/50], Train Loss: 0.3740, Val Loss: 0.4123
+
+ · No improvement in validation loss for 10 epochs, stopping...
+
+ · Validation accuracy: 89.09%
+ · Confusion Matrix:   [32  1]
+                       [ 5 17]
+
+Fold [2/5]...
+
+LEN OF TRAIN: 2464
+LEN OF VAL: 59
+
+--- Training Model: BreastCancerDetectionNet ---
+ · Epoch [1/50], Train Loss: 0.5882, Val Loss: 0.4712
+ · Epoch [2/50], Train Loss: 0.5109, Val Loss: 0.4059
+ · Epoch [3/50], Train Loss: 0.4583, Val Loss: 0.4399
+ · Epoch [4/50], Train Loss: 0.4321, Val Loss: 0.4665
+ · Epoch [5/50], Train Loss: 0.4392, Val Loss: 0.4300
+ · Epoch [6/50], Train Loss: 0.4243, Val Loss: 0.4688
+ · Epoch [7/50], Train Loss: 0.4039, Val Loss: 0.4377
+ · Epoch [8/50], Train Loss: 0.3998, Val Loss: 0.4487
+ · Epoch [9/50], Train Loss: 0.3856, Val Loss: 0.4170
+ · Epoch [10/50], Train Loss: 0.3944, Val Loss: 0.4241
+ · Epoch [11/50], Train Loss: 0.3966, Val Loss: 0.3908
+ · Epoch [12/50], Train Loss: 0.3744, Val Loss: 0.4081
+ · Epoch [13/50], Train Loss: 0.3756, Val Loss: 0.4148
+ · Epoch [14/50], Train Loss: 0.3691, Val Loss: 0.4338
+ · Epoch [15/50], Train Loss: 0.3658, Val Loss: 0.4185
+ · Epoch [16/50], Train Loss: 0.3654, Val Loss: 0.4137
+ · Epoch [17/50], Train Loss: 0.3627, Val Loss: 0.4536
+ · Epoch [18/50], Train Loss: 0.3624, Val Loss: 0.4230
+ · Epoch [19/50], Train Loss: 0.3566, Val Loss: 0.4100
+ · Epoch [20/50], Train Loss: 0.3633, Val Loss: 0.4300
+ · Epoch [21/50], Train Loss: 0.3540, Val Loss: 0.4478
+
+ · No improvement in validation loss for 10 epochs, stopping...
+
+ · Validation accuracy: 86.44%
+ · Confusion Matrix:   [33  4]
+                       [ 4 18]
+
+Fold [3/5]...
+
+LEN OF TRAIN: 2497
+LEN OF VAL: 56
+
+--- Training Model: BreastCancerDetectionNet ---
+ · Epoch [1/50], Train Loss: 0.5384, Val Loss: 0.5453
+ · Epoch [2/50], Train Loss: 0.4536, Val Loss: 0.4777
+ · Epoch [3/50], Train Loss: 0.4402, Val Loss: 0.4407
+ · Epoch [4/50], Train Loss: 0.4214, Val Loss: 0.4222
+ · Epoch [5/50], Train Loss: 0.4115, Val Loss: 0.5049
+ · Epoch [6/50], Train Loss: 0.3997, Val Loss: 0.4376
+ · Epoch [7/50], Train Loss: 0.4048, Val Loss: 0.4108
+ · Epoch [8/50], Train Loss: 0.3958, Val Loss: 0.4355
+ · Epoch [9/50], Train Loss: 0.3847, Val Loss: 0.4381
+ · Epoch [10/50], Train Loss: 0.3816, Val Loss: 0.4259
+ · Epoch [11/50], Train Loss: 0.3778, Val Loss: 0.4383
+ · Epoch [12/50], Train Loss: 0.3716, Val Loss: 0.4388
+ · Epoch [13/50], Train Loss: 0.3724, Val Loss: 0.4379
+ · Epoch [14/50], Train Loss: 0.3607, Val Loss: 0.4368
+ · Epoch [15/50], Train Loss: 0.3625, Val Loss: 0.4356
+ · Epoch [16/50], Train Loss: 0.3584, Val Loss: 0.4358
+ · Epoch [17/50], Train Loss: 0.3611, Val Loss: 0.4364
+
+ · No improvement in validation loss for 10 epochs, stopping...
+
+ · Validation accuracy: 87.50%
+ · Confusion Matrix:   [31  5]
+                       [ 2 18]
+
+Fold [4/5]...
+
+LEN OF TRAIN: 2519
+LEN OF VAL: 54
+
+--- Training Model: BreastCancerDetectionNet ---
+ · Epoch [1/50], Train Loss: 0.6134, Val Loss: 0.5556
+ · Epoch [2/50], Train Loss: 0.5644, Val Loss: 0.5241
+ · Epoch [3/50], Train Loss: 0.5587, Val Loss: 0.5289
+ · Epoch [4/50], Train Loss: 0.4965, Val Loss: 0.4566
+ · Epoch [5/50], Train Loss: 0.4421, Val Loss: 0.4578
+ · Epoch [6/50], Train Loss: 0.4221, Val Loss: 0.4781
+ · Epoch [7/50], Train Loss: 0.4010, Val Loss: 0.4316
+ · Epoch [8/50], Train Loss: 0.3943, Val Loss: 0.4573
+ · Epoch [9/50], Train Loss: 0.3886, Val Loss: 0.4661
+ · Epoch [10/50], Train Loss: 0.3735, Val Loss: 0.4669
+ · Epoch [11/50], Train Loss: 0.3767, Val Loss: 0.5187
+ · Epoch [12/50], Train Loss: 0.3701, Val Loss: 0.4792
+ · Epoch [13/50], Train Loss: 0.3744, Val Loss: 0.4974
+ · Epoch [14/50], Train Loss: 0.3714, Val Loss: 0.4870
+ · Epoch [15/50], Train Loss: 0.3609, Val Loss: 0.4979
+ · Epoch [16/50], Train Loss: 0.3527, Val Loss: 0.4697
+ · Epoch [17/50], Train Loss: 0.3465, Val Loss: 0.5427
+
+ · No improvement in validation loss for 10 epochs, stopping...
+
+ · Validation accuracy: 75.93%
+ · Confusion Matrix:   [27  4]
+                       [ 9 14]
+
+Fold [5/5]...
+
+LEN OF TRAIN: 2464
+LEN OF VAL: 59
+
+--- Training Model: BreastCancerDetectionNet ---
+ · Epoch [1/50], Train Loss: 0.6148, Val Loss: 0.6028
+ · Epoch [2/50], Train Loss: 0.5577, Val Loss: 0.5797
+ · Epoch [3/50], Train Loss: 0.5503, Val Loss: 0.5536
+ · Epoch [4/50], Train Loss: 0.4931, Val Loss: 0.4392
+ · Epoch [5/50], Train Loss: 0.4627, Val Loss: 0.4838
+ · Epoch [6/50], Train Loss: 0.4367, Val Loss: 0.4320
+ · Epoch [7/50], Train Loss: 0.4245, Val Loss: 0.4431
+ · Epoch [8/50], Train Loss: 0.4152, Val Loss: 0.4345
+ · Epoch [9/50], Train Loss: 0.4099, Val Loss: 0.4033
+ · Epoch [10/50], Train Loss: 0.4037, Val Loss: 0.4195
+ · Epoch [11/50], Train Loss: 0.3930, Val Loss: 0.4150
+ · Epoch [12/50], Train Loss: 0.4080, Val Loss: 0.4012
+ · Epoch [13/50], Train Loss: 0.4007, Val Loss: 0.4230
+ · Epoch [14/50], Train Loss: 0.3910, Val Loss: 0.4331
+ · Epoch [15/50], Train Loss: 0.3884, Val Loss: 0.4496
+ · Epoch [16/50], Train Loss: 0.3789, Val Loss: 0.4067
+ · Epoch [17/50], Train Loss: 0.3715, Val Loss: 0.3989
+ · Epoch [18/50], Train Loss: 0.3689, Val Loss: 0.4014
+ · Epoch [19/50], Train Loss: 0.3724, Val Loss: 0.3997
+ · Epoch [20/50], Train Loss: 0.3668, Val Loss: 0.4137
+ · Epoch [21/50], Train Loss: 0.3621, Val Loss: 0.4245
+ · Epoch [22/50], Train Loss: 0.3582, Val Loss: 0.4308
+ · Epoch [23/50], Train Loss: 0.3621, Val Loss: 0.4148
+ · Epoch [24/50], Train Loss: 0.3570, Val Loss: 0.4287
+ · Epoch [25/50], Train Loss: 0.3537, Val Loss: 0.4131
+ · Epoch [26/50], Train Loss: 0.3567, Val Loss: 0.4159
+ · Epoch [27/50], Train Loss: 0.3545, Val Loss: 0.4208
+
+ · No improvement in validation loss for 10 epochs, stopping...
+
+ · Validation accuracy: 89.83%
+ · Confusion Matrix:   [23  3]
+                       [ 3 30]
+
+
+EXACTITUD - Average validation accuracy: 85.76%
+ESPECIFICIDAD - Average specificity: 89.57%
+PRECISIÓN - Average precision: 84.64%
+EXHAUSTIVIDAD - Average sensitivity: 80.17%
+F1 SCORE - Average F1-score: 81.95%
+
+
+CROSS VALIDATION Time: 5.900093 minutes.
+
+
+===================================================================================
+======================== SEED RUN 5 =========================
+===================================================================================
+
+Model: BreastCancerDetectionNet
+
+GAN: StyleGAN
+Number of folds: 5
+Number of epochs: 50
+DATASET LEN: 3113
+
+Fold [1/5]...
+
+LEN OF TRAIN: 2497
+LEN OF VAL: 56
+
+--- Training Model: BreastCancerDetectionNet ---
+ · Epoch [1/50], Train Loss: 0.5791, Val Loss: 0.4732
+ · Epoch [2/50], Train Loss: 0.5070, Val Loss: 0.5843
+ · Epoch [3/50], Train Loss: 0.4790, Val Loss: 0.4364
+ · Epoch [4/50], Train Loss: 0.4352, Val Loss: 0.4403
+ · Epoch [5/50], Train Loss: 0.4192, Val Loss: 0.4349
+ · Epoch [6/50], Train Loss: 0.4145, Val Loss: 0.4121
+ · Epoch [7/50], Train Loss: 0.4083, Val Loss: 0.4220
+ · Epoch [8/50], Train Loss: 0.3944, Val Loss: 0.4180
+ · Epoch [9/50], Train Loss: 0.3914, Val Loss: 0.4341
+ · Epoch [10/50], Train Loss: 0.3868, Val Loss: 0.4557
+ · Epoch [11/50], Train Loss: 0.3802, Val Loss: 0.4246
+ · Epoch [12/50], Train Loss: 0.3746, Val Loss: 0.4002
+ · Epoch [13/50], Train Loss: 0.3655, Val Loss: 0.4139
+ · Epoch [14/50], Train Loss: 0.3589, Val Loss: 0.4590
+ · Epoch [15/50], Train Loss: 0.3644, Val Loss: 0.4438
+ · Epoch [16/50], Train Loss: 0.3596, Val Loss: 0.4030
+ · Epoch [17/50], Train Loss: 0.3514, Val Loss: 0.4176
+ · Epoch [18/50], Train Loss: 0.3482, Val Loss: 0.4299
+ · Epoch [19/50], Train Loss: 0.3501, Val Loss: 0.4729
+ · Epoch [20/50], Train Loss: 0.3469, Val Loss: 0.4124
+ · Epoch [21/50], Train Loss: 0.3440, Val Loss: 0.4278
+ · Epoch [22/50], Train Loss: 0.3550, Val Loss: 0.4024
+
+ · No improvement in validation loss for 10 epochs, stopping...
+
+ · Validation accuracy: 91.07%
+ · Confusion Matrix:   [28  0]
+                       [ 5 23]
+
+Fold [2/5]...
+
+LEN OF TRAIN: 2486
+LEN OF VAL: 57
+
+--- Training Model: BreastCancerDetectionNet ---
+ · Epoch [1/50], Train Loss: 0.5788, Val Loss: 0.5075
+ · Epoch [2/50], Train Loss: 0.5204, Val Loss: 0.4512
+ · Epoch [3/50], Train Loss: 0.4755, Val Loss: 0.4451
+ · Epoch [4/50], Train Loss: 0.4436, Val Loss: 0.4344
+ · Epoch [5/50], Train Loss: 0.4386, Val Loss: 0.4372
+ · Epoch [6/50], Train Loss: 0.4224, Val Loss: 0.4301
+ · Epoch [7/50], Train Loss: 0.4148, Val Loss: 0.4265
+ · Epoch [8/50], Train Loss: 0.3991, Val Loss: 0.4154
+ · Epoch [9/50], Train Loss: 0.3914, Val Loss: 0.4214
+ · Epoch [10/50], Train Loss: 0.3867, Val Loss: 0.4829
+ · Epoch [11/50], Train Loss: 0.3750, Val Loss: 0.4394
+ · Epoch [12/50], Train Loss: 0.3752, Val Loss: 0.4193
+ · Epoch [13/50], Train Loss: 0.3717, Val Loss: 0.4445
+ · Epoch [14/50], Train Loss: 0.3676, Val Loss: 0.4420
+ · Epoch [15/50], Train Loss: 0.3625, Val Loss: 0.4272
+ · Epoch [16/50], Train Loss: 0.3616, Val Loss: 0.4419
+ · Epoch [17/50], Train Loss: 0.3655, Val Loss: 0.4326
+ · Epoch [18/50], Train Loss: 0.3600, Val Loss: 0.4332
+
+ · No improvement in validation loss for 10 epochs, stopping...
+
+ · Validation accuracy: 87.72%
+ · Confusion Matrix:   [31  2]
+                       [ 5 19]
+
+Fold [3/5]...
+
+LEN OF TRAIN: 2508
+LEN OF VAL: 55
+
+--- Training Model: BreastCancerDetectionNet ---
+ · Epoch [1/50], Train Loss: 0.5754, Val Loss: 0.4610
+ · Epoch [2/50], Train Loss: 0.4817, Val Loss: 0.4364
+ · Epoch [3/50], Train Loss: 0.4541, Val Loss: 0.4931
+ · Epoch [4/50], Train Loss: 0.4321, Val Loss: 0.4565
+ · Epoch [5/50], Train Loss: 0.4327, Val Loss: 0.4098
+ · Epoch [6/50], Train Loss: 0.4224, Val Loss: 0.3951
+ · Epoch [7/50], Train Loss: 0.4027, Val Loss: 0.3958
+ · Epoch [8/50], Train Loss: 0.3996, Val Loss: 0.4886
+ · Epoch [9/50], Train Loss: 0.3969, Val Loss: 0.4770
+ · Epoch [10/50], Train Loss: 0.3969, Val Loss: 0.4487
+ · Epoch [11/50], Train Loss: 0.3916, Val Loss: 0.4196
+ · Epoch [12/50], Train Loss: 0.3902, Val Loss: 0.4770
+ · Epoch [13/50], Train Loss: 0.3900, Val Loss: 0.4009
+ · Epoch [14/50], Train Loss: 0.3865, Val Loss: 0.4208
+ · Epoch [15/50], Train Loss: 0.3751, Val Loss: 0.3768
+ · Epoch [16/50], Train Loss: 0.3768, Val Loss: 0.3947
+ · Epoch [17/50], Train Loss: 0.3608, Val Loss: 0.4177
+ · Epoch [18/50], Train Loss: 0.3566, Val Loss: 0.4075
+ · Epoch [19/50], Train Loss: 0.3559, Val Loss: 0.4027
+ · Epoch [20/50], Train Loss: 0.3599, Val Loss: 0.4300
+ · Epoch [21/50], Train Loss: 0.3512, Val Loss: 0.4154
+ · Epoch [22/50], Train Loss: 0.3580, Val Loss: 0.4045
+ · Epoch [23/50], Train Loss: 0.3560, Val Loss: 0.4436
+ · Epoch [24/50], Train Loss: 0.3477, Val Loss: 0.4128
+ · Epoch [25/50], Train Loss: 0.3464, Val Loss: 0.4361
+
+ · No improvement in validation loss for 10 epochs, stopping...
+
+ · Validation accuracy: 85.45%
+ · Confusion Matrix:   [30  6]
+                       [ 2 17]
+
+Fold [4/5]...
+
+LEN OF TRAIN: 2475
+LEN OF VAL: 58
+
+--- Training Model: BreastCancerDetectionNet ---
+ · Epoch [1/50], Train Loss: 0.5842, Val Loss: 0.4361
+ · Epoch [2/50], Train Loss: 0.4967, Val Loss: 0.4000
+ · Epoch [3/50], Train Loss: 0.4627, Val Loss: 0.3974
+ · Epoch [4/50], Train Loss: 0.4358, Val Loss: 0.4132
+ · Epoch [5/50], Train Loss: 0.4152, Val Loss: 0.4128
+ · Epoch [6/50], Train Loss: 0.4113, Val Loss: 0.4273
+ · Epoch [7/50], Train Loss: 0.3954, Val Loss: 0.4273
+ · Epoch [8/50], Train Loss: 0.3863, Val Loss: 0.4191
+ · Epoch [9/50], Train Loss: 0.3989, Val Loss: 0.4254
+ · Epoch [10/50], Train Loss: 0.3980, Val Loss: 0.4212
+ · Epoch [11/50], Train Loss: 0.3818, Val Loss: 0.3813
+ · Epoch [12/50], Train Loss: 0.3701, Val Loss: 0.4204
+ · Epoch [13/50], Train Loss: 0.3651, Val Loss: 0.3854
+ · Epoch [14/50], Train Loss: 0.3675, Val Loss: 0.3995
+ · Epoch [15/50], Train Loss: 0.3603, Val Loss: 0.4005
+ · Epoch [16/50], Train Loss: 0.3538, Val Loss: 0.4046
+ · Epoch [17/50], Train Loss: 0.3544, Val Loss: 0.3802
+ · Epoch [18/50], Train Loss: 0.3533, Val Loss: 0.4121
+ · Epoch [19/50], Train Loss: 0.3534, Val Loss: 0.4191
+ · Epoch [20/50], Train Loss: 0.3558, Val Loss: 0.3883
+ · Epoch [21/50], Train Loss: 0.3477, Val Loss: 0.3971
+ · Epoch [22/50], Train Loss: 0.3512, Val Loss: 0.3860
+ · Epoch [23/50], Train Loss: 0.3513, Val Loss: 0.3840
+ · Epoch [24/50], Train Loss: 0.3504, Val Loss: 0.3720
+ · Epoch [25/50], Train Loss: 0.3464, Val Loss: 0.3666
+ · Epoch [26/50], Train Loss: 0.3442, Val Loss: 0.4047
+ · Epoch [27/50], Train Loss: 0.3431, Val Loss: 0.4012
+ · Epoch [28/50], Train Loss: 0.3426, Val Loss: 0.3907
+ · Epoch [29/50], Train Loss: 0.3413, Val Loss: 0.3978
+ · Epoch [30/50], Train Loss: 0.3435, Val Loss: 0.3775
+ · Epoch [31/50], Train Loss: 0.3450, Val Loss: 0.3886
+ · Epoch [32/50], Train Loss: 0.3449, Val Loss: 0.4156
+ · Epoch [33/50], Train Loss: 0.3397, Val Loss: 0.3903
+ · Epoch [34/50], Train Loss: 0.3497, Val Loss: 0.3985
+ · Epoch [35/50], Train Loss: 0.3419, Val Loss: 0.4004
+
+ · No improvement in validation loss for 10 epochs, stopping...
+
+ · Validation accuracy: 89.66%
+ · Confusion Matrix:   [28  4]
+                       [ 2 24]
+
+Fold [5/5]...
+
+LEN OF TRAIN: 2486
+LEN OF VAL: 57
+
+--- Training Model: BreastCancerDetectionNet ---
+ · Epoch [1/50], Train Loss: 0.5824, Val Loss: 0.4739
+ · Epoch [2/50], Train Loss: 0.5113, Val Loss: 0.5032
+ · Epoch [3/50], Train Loss: 0.4837, Val Loss: 0.4756
+ · Epoch [4/50], Train Loss: 0.4513, Val Loss: 0.4726
+ · Epoch [5/50], Train Loss: 0.4198, Val Loss: 0.4554
+ · Epoch [6/50], Train Loss: 0.4122, Val Loss: 0.4549
+ · Epoch [7/50], Train Loss: 0.4043, Val Loss: 0.4690
+ · Epoch [8/50], Train Loss: 0.3973, Val Loss: 0.4805
+ · Epoch [9/50], Train Loss: 0.3913, Val Loss: 0.4876
+ · Epoch [10/50], Train Loss: 0.3814, Val Loss: 0.5020
+ · Epoch [11/50], Train Loss: 0.3817, Val Loss: 0.4615
+ · Epoch [12/50], Train Loss: 0.3769, Val Loss: 0.4716
+ · Epoch [13/50], Train Loss: 0.3759, Val Loss: 0.4573
+ · Epoch [14/50], Train Loss: 0.3644, Val Loss: 0.4575
+ · Epoch [15/50], Train Loss: 0.3575, Val Loss: 0.4686
+ · Epoch [16/50], Train Loss: 0.3580, Val Loss: 0.4710
+
+ · No improvement in validation loss for 10 epochs, stopping...
+
+ · Validation accuracy: 84.21%
+ · Confusion Matrix:   [29  5]
+                       [ 4 19]
+
+
+EXACTITUD - Average validation accuracy: 87.62%
+ESPECIFICIDAD - Average specificity: 90.01%
+PRECISIÓN - Average precision: 85.85%
+EXHAUSTIVIDAD - Average sensitivity: 85.14%
+F1 SCORE - Average F1-score: 85.07%
+
+
+CROSS VALIDATION Time: 6.634669 minutes.
+
+
+===================================================================================
+======================== SEED RUN 6 =========================
+===================================================================================
+
+Model: BreastCancerDetectionNet
+
+GAN: StyleGAN
+Number of folds: 5
+Number of epochs: 50
+DATASET LEN: 3113
+
+Fold [1/5]...
+
+LEN OF TRAIN: 2486
+LEN OF VAL: 57
+
+--- Training Model: BreastCancerDetectionNet ---
+ · Epoch [1/50], Train Loss: 0.6345, Val Loss: 0.5736
+ · Epoch [2/50], Train Loss: 0.5854, Val Loss: 0.5486
+ · Epoch [3/50], Train Loss: 0.5531, Val Loss: 0.5485
+ · Epoch [4/50], Train Loss: 0.5043, Val Loss: 0.4493
+ · Epoch [5/50], Train Loss: 0.4499, Val Loss: 0.4501
+ · Epoch [6/50], Train Loss: 0.4285, Val Loss: 0.4402
+ · Epoch [7/50], Train Loss: 0.4220, Val Loss: 0.4533
+ · Epoch [8/50], Train Loss: 0.4274, Val Loss: 0.4451
+ · Epoch [9/50], Train Loss: 0.4186, Val Loss: 0.4251
+ · Epoch [10/50], Train Loss: 0.4021, Val Loss: 0.4303
+ · Epoch [11/50], Train Loss: 0.3970, Val Loss: 0.4054
+ · Epoch [12/50], Train Loss: 0.3863, Val Loss: 0.4081
+ · Epoch [13/50], Train Loss: 0.3986, Val Loss: 0.4330
+ · Epoch [14/50], Train Loss: 0.3830, Val Loss: 0.4355
+ · Epoch [15/50], Train Loss: 0.3785, Val Loss: 0.4421
+ · Epoch [16/50], Train Loss: 0.3733, Val Loss: 0.4323
+ · Epoch [17/50], Train Loss: 0.3668, Val Loss: 0.4132
+ · Epoch [18/50], Train Loss: 0.3825, Val Loss: 0.4322
+ · Epoch [19/50], Train Loss: 0.3648, Val Loss: 0.4226
+ · Epoch [20/50], Train Loss: 0.3562, Val Loss: 0.4187
+ · Epoch [21/50], Train Loss: 0.3649, Val Loss: 0.4199
+
+ · No improvement in validation loss for 10 epochs, stopping...
+
+ · Validation accuracy: 89.47%
+ · Confusion Matrix:   [30  3]
+                       [ 3 21]
+
+Fold [2/5]...
+
+LEN OF TRAIN: 2475
+LEN OF VAL: 58
+
+--- Training Model: BreastCancerDetectionNet ---
+ · Epoch [1/50], Train Loss: 0.5936, Val Loss: 0.5561
+ · Epoch [2/50], Train Loss: 0.5006, Val Loss: 0.5325
+ · Epoch [3/50], Train Loss: 0.4674, Val Loss: 0.4404
+ · Epoch [4/50], Train Loss: 0.4421, Val Loss: 0.4564
+ · Epoch [5/50], Train Loss: 0.4226, Val Loss: 0.4170
+ · Epoch [6/50], Train Loss: 0.4193, Val Loss: 0.4541
+ · Epoch [7/50], Train Loss: 0.4027, Val Loss: 0.4714
+ · Epoch [8/50], Train Loss: 0.4038, Val Loss: 0.4426
+ · Epoch [9/50], Train Loss: 0.3970, Val Loss: 0.4438
+ · Epoch [10/50], Train Loss: 0.3934, Val Loss: 0.4186
+ · Epoch [11/50], Train Loss: 0.3925, Val Loss: 0.4284
+ · Epoch [12/50], Train Loss: 0.3824, Val Loss: 0.4233
+ · Epoch [13/50], Train Loss: 0.3823, Val Loss: 0.4230
+ · Epoch [14/50], Train Loss: 0.3770, Val Loss: 0.4226
+ · Epoch [15/50], Train Loss: 0.3662, Val Loss: 0.4208
+
+ · No improvement in validation loss for 10 epochs, stopping...
+
+ · Validation accuracy: 91.38%
+ · Confusion Matrix:   [32  2]
+                       [ 3 21]
+
+Fold [3/5]...
+
+LEN OF TRAIN: 2464
+LEN OF VAL: 59
+
+--- Training Model: BreastCancerDetectionNet ---
+ · Epoch [1/50], Train Loss: 0.5904, Val Loss: 0.4134
+ · Epoch [2/50], Train Loss: 0.4972, Val Loss: 0.4553
+ · Epoch [3/50], Train Loss: 0.4650, Val Loss: 0.4399
+ · Epoch [4/50], Train Loss: 0.4386, Val Loss: 0.4243
+ · Epoch [5/50], Train Loss: 0.4152, Val Loss: 0.4110
+ · Epoch [6/50], Train Loss: 0.4071, Val Loss: 0.4336
+ · Epoch [7/50], Train Loss: 0.4057, Val Loss: 0.4267
+ · Epoch [8/50], Train Loss: 0.3939, Val Loss: 0.4168
+ · Epoch [9/50], Train Loss: 0.3846, Val Loss: 0.4198
+ · Epoch [10/50], Train Loss: 0.3797, Val Loss: 0.4224
+ · Epoch [11/50], Train Loss: 0.3824, Val Loss: 0.4414
+ · Epoch [12/50], Train Loss: 0.3796, Val Loss: 0.4175
+ · Epoch [13/50], Train Loss: 0.3713, Val Loss: 0.4185
+ · Epoch [14/50], Train Loss: 0.3709, Val Loss: 0.4120
+ · Epoch [15/50], Train Loss: 0.3633, Val Loss: 0.4303
+
+ · No improvement in validation loss for 10 epochs, stopping...
+
+ · Validation accuracy: 88.14%
+ · Confusion Matrix:   [29  2]
+                       [ 5 23]
+
+Fold [4/5]...
+
+LEN OF TRAIN: 2519
+LEN OF VAL: 54
+
+--- Training Model: BreastCancerDetectionNet ---
+ · Epoch [1/50], Train Loss: 0.6249, Val Loss: 0.4225
+ · Epoch [2/50], Train Loss: 0.5344, Val Loss: 0.4261
+ · Epoch [3/50], Train Loss: 0.4976, Val Loss: 0.4402
+ · Epoch [4/50], Train Loss: 0.4428, Val Loss: 0.4737
+ · Epoch [5/50], Train Loss: 0.4394, Val Loss: 0.4631
+ · Epoch [6/50], Train Loss: 0.4122, Val Loss: 0.4147
+ · Epoch [7/50], Train Loss: 0.4125, Val Loss: 0.4381
+ · Epoch [8/50], Train Loss: 0.4086, Val Loss: 0.4418
+ · Epoch [9/50], Train Loss: 0.3938, Val Loss: 0.4351
+ · Epoch [10/50], Train Loss: 0.3851, Val Loss: 0.4364
+ · Epoch [11/50], Train Loss: 0.3787, Val Loss: 0.4218
+ · Epoch [12/50], Train Loss: 0.3735, Val Loss: 0.4499
+ · Epoch [13/50], Train Loss: 0.3851, Val Loss: 0.4373
+ · Epoch [14/50], Train Loss: 0.3766, Val Loss: 0.4430
+ · Epoch [15/50], Train Loss: 0.3662, Val Loss: 0.4366
+ · Epoch [16/50], Train Loss: 0.3606, Val Loss: 0.4428
+
+ · No improvement in validation loss for 10 epochs, stopping...
+
+ · Validation accuracy: 87.04%
+ · Confusion Matrix:   [30  4]
+                       [ 3 17]
+
+Fold [5/5]...
+
+LEN OF TRAIN: 2508
+LEN OF VAL: 55
+
+--- Training Model: BreastCancerDetectionNet ---
+ · Epoch [1/50], Train Loss: 0.7394, Val Loss: 0.7496
+ · Epoch [2/50], Train Loss: 0.7325, Val Loss: 0.7496
+ · Epoch [3/50], Train Loss: 0.7342, Val Loss: 0.7496
+ · Epoch [4/50], Train Loss: 0.7308, Val Loss: 0.7496
+ · Epoch [5/50], Train Loss: 0.7308, Val Loss: 0.7496
+ · Epoch [6/50], Train Loss: 0.7359, Val Loss: 0.7496
+ · Epoch [7/50], Train Loss: 0.7376, Val Loss: 0.7496
+ · Epoch [8/50], Train Loss: 0.7393, Val Loss: 0.7496
+ · Epoch [9/50], Train Loss: 0.7359, Val Loss: 0.7496
+ · Epoch [10/50], Train Loss: 0.7376, Val Loss: 0.7496
+ · Epoch [11/50], Train Loss: 0.7308, Val Loss: 0.7496
+ · Epoch [12/50], Train Loss: 0.7325, Val Loss: 0.7496
+ · Epoch [13/50], Train Loss: 0.7342, Val Loss: 0.7496
+ · Epoch [14/50], Train Loss: 0.7308, Val Loss: 0.7496
+ · Epoch [15/50], Train Loss: 0.7376, Val Loss: 0.7496
+ · Epoch [16/50], Train Loss: 0.7291, Val Loss: 0.7496
+
+ · No improvement in validation loss for 10 epochs, stopping...
+
+ · Validation accuracy: 56.36%
+ · Confusion Matrix:   [31  0]
+                       [24  0]
+
+
+EXACTITUD - Average validation accuracy: 82.48%
+ESPECIFICIDAD - Average specificity: 93.36%
+PRECISIÓN - Average precision: 70.35%
+EXHAUSTIVIDAD - Average sensitivity: 68.43%
+F1 SCORE - Average F1-score: 69.32%
+
+
+CROSS VALIDATION Time: 4.681790 minutes.
+
+
+===================================================================================
+======================== SEED RUN 7 =========================
+===================================================================================
+
+Model: BreastCancerDetectionNet
+
+GAN: StyleGAN
+Number of folds: 5
+Number of epochs: 50
+DATASET LEN: 3113
+
+Fold [1/5]...
+
+LEN OF TRAIN: 2497
+LEN OF VAL: 56
+
+--- Training Model: BreastCancerDetectionNet ---
+ · Epoch [1/50], Train Loss: 0.5763, Val Loss: 0.4353
+ · Epoch [2/50], Train Loss: 0.5063, Val Loss: 0.4644
+ · Epoch [3/50], Train Loss: 0.4728, Val Loss: 0.4059
+ · Epoch [4/50], Train Loss: 0.4525, Val Loss: 0.3945
+ · Epoch [5/50], Train Loss: 0.4384, Val Loss: 0.3848
+ · Epoch [6/50], Train Loss: 0.4289, Val Loss: 0.4016
+ · Epoch [7/50], Train Loss: 0.4179, Val Loss: 0.3743
+ · Epoch [8/50], Train Loss: 0.4212, Val Loss: 0.3954
+ · Epoch [9/50], Train Loss: 0.4317, Val Loss: 0.3917
+ · Epoch [10/50], Train Loss: 0.4076, Val Loss: 0.3737
+ · Epoch [11/50], Train Loss: 0.3995, Val Loss: 0.3884
+ · Epoch [12/50], Train Loss: 0.3963, Val Loss: 0.3852
+ · Epoch [13/50], Train Loss: 0.3940, Val Loss: 0.3915
+ · Epoch [14/50], Train Loss: 0.3904, Val Loss: 0.3674
+ · Epoch [15/50], Train Loss: 0.3790, Val Loss: 0.3791
+ · Epoch [16/50], Train Loss: 0.3789, Val Loss: 0.3905
+ · Epoch [17/50], Train Loss: 0.3765, Val Loss: 0.3781
+ · Epoch [18/50], Train Loss: 0.3717, Val Loss: 0.3859
+ · Epoch [19/50], Train Loss: 0.3755, Val Loss: 0.3992
+ · Epoch [20/50], Train Loss: 0.3708, Val Loss: 0.3986
+ · Epoch [21/50], Train Loss: 0.3770, Val Loss: 0.3934
+ · Epoch [22/50], Train Loss: 0.3730, Val Loss: 0.3901
+ · Epoch [23/50], Train Loss: 0.3734, Val Loss: 0.4018
+ · Epoch [24/50], Train Loss: 0.3631, Val Loss: 0.4071
+
+ · No improvement in validation loss for 10 epochs, stopping...
+
+ · Validation accuracy: 91.07%
+ · Confusion Matrix:   [32  2]
+                       [ 3 19]
+
+Fold [2/5]...
+
+LEN OF TRAIN: 2453
+LEN OF VAL: 60
+
+--- Training Model: BreastCancerDetectionNet ---
+ · Epoch [1/50], Train Loss: 0.7111, Val Loss: 0.8299
+ · Epoch [2/50], Train Loss: 0.7129, Val Loss: 0.8299
+ · Epoch [3/50], Train Loss: 0.7104, Val Loss: 0.8299
+ · Epoch [4/50], Train Loss: 0.7137, Val Loss: 0.8299
+ · Epoch [5/50], Train Loss: 0.7145, Val Loss: 0.8299
+ · Epoch [6/50], Train Loss: 0.7104, Val Loss: 0.8299
+ · Epoch [7/50], Train Loss: 0.7129, Val Loss: 0.8299
+ · Epoch [8/50], Train Loss: 0.7129, Val Loss: 0.8299
+ · Epoch [9/50], Train Loss: 0.7129, Val Loss: 0.8299
+ · Epoch [10/50], Train Loss: 0.7104, Val Loss: 0.8299
+ · Epoch [11/50], Train Loss: 0.7112, Val Loss: 0.8299
+ · Epoch [12/50], Train Loss: 0.7129, Val Loss: 0.8299
+ · Epoch [13/50], Train Loss: 0.7129, Val Loss: 0.8299
+ · Epoch [14/50], Train Loss: 0.7112, Val Loss: 0.8299
+ · Epoch [15/50], Train Loss: 0.7145, Val Loss: 0.8299
+ · Epoch [16/50], Train Loss: 0.7145, Val Loss: 0.8299
+ · Epoch [17/50], Train Loss: 0.7112, Val Loss: 0.8299
+ · Epoch [18/50], Train Loss: 0.7096, Val Loss: 0.8299
+
+ · No improvement in validation loss for 10 epochs, stopping...
+
+ · Validation accuracy: 48.33%
+ · Confusion Matrix:   [29  0]
+                       [31  0]
+
+Fold [3/5]...
+
+LEN OF TRAIN: 2486
+LEN OF VAL: 57
+
+--- Training Model: BreastCancerDetectionNet ---
+ · Epoch [1/50], Train Loss: 0.5550, Val Loss: 0.5121
+ · Epoch [2/50], Train Loss: 0.4605, Val Loss: 0.4815
+ · Epoch [3/50], Train Loss: 0.4243, Val Loss: 0.4730
+ · Epoch [4/50], Train Loss: 0.4163, Val Loss: 0.4703
+ · Epoch [5/50], Train Loss: 0.4011, Val Loss: 0.4605
+ · Epoch [6/50], Train Loss: 0.3973, Val Loss: 0.5043
+ · Epoch [7/50], Train Loss: 0.3963, Val Loss: 0.4740
+ · Epoch [8/50], Train Loss: 0.3837, Val Loss: 0.4665
+ · Epoch [9/50], Train Loss: 0.3743, Val Loss: 0.4443
+ · Epoch [10/50], Train Loss: 0.3807, Val Loss: 0.4603
+ · Epoch [11/50], Train Loss: 0.3694, Val Loss: 0.4884
+ · Epoch [12/50], Train Loss: 0.3690, Val Loss: 0.4624
+ · Epoch [13/50], Train Loss: 0.3618, Val Loss: 0.4579
+ · Epoch [14/50], Train Loss: 0.3566, Val Loss: 0.4613
+ · Epoch [15/50], Train Loss: 0.3544, Val Loss: 0.4563
+ · Epoch [16/50], Train Loss: 0.3535, Val Loss: 0.4737
+ · Epoch [17/50], Train Loss: 0.3525, Val Loss: 0.4680
+ · Epoch [18/50], Train Loss: 0.3448, Val Loss: 0.4809
+ · Epoch [19/50], Train Loss: 0.3530, Val Loss: 0.4330
+ · Epoch [20/50], Train Loss: 0.3511, Val Loss: 0.4821
+ · Epoch [21/50], Train Loss: 0.3473, Val Loss: 0.4325
+ · Epoch [22/50], Train Loss: 0.3434, Val Loss: 0.4727
+ · Epoch [23/50], Train Loss: 0.3397, Val Loss: 0.4714
+ · Epoch [24/50], Train Loss: 0.3403, Val Loss: 0.4827
+ · Epoch [25/50], Train Loss: 0.3378, Val Loss: 0.4978
+ · Epoch [26/50], Train Loss: 0.3375, Val Loss: 0.4863
+ · Epoch [27/50], Train Loss: 0.3351, Val Loss: 0.4672
+ · Epoch [28/50], Train Loss: 0.3352, Val Loss: 0.4741
+ · Epoch [29/50], Train Loss: 0.3380, Val Loss: 0.5014
+ · Epoch [30/50], Train Loss: 0.3385, Val Loss: 0.4896
+ · Epoch [31/50], Train Loss: 0.3360, Val Loss: 0.4771
+
+ · No improvement in validation loss for 10 epochs, stopping...
+
+ · Validation accuracy: 84.21%
+ · Confusion Matrix:   [27  7]
+                       [ 2 21]
+
+Fold [4/5]...
+
+LEN OF TRAIN: 2486
+LEN OF VAL: 57
+
+--- Training Model: BreastCancerDetectionNet ---
+ · Epoch [1/50], Train Loss: 0.5796, Val Loss: 0.4976
+ · Epoch [2/50], Train Loss: 0.5137, Val Loss: 0.4221
+ · Epoch [3/50], Train Loss: 0.4603, Val Loss: 0.4063
+ · Epoch [4/50], Train Loss: 0.4409, Val Loss: 0.4056
+ · Epoch [5/50], Train Loss: 0.4239, Val Loss: 0.4018
+ · Epoch [6/50], Train Loss: 0.4101, Val Loss: 0.4035
+ · Epoch [7/50], Train Loss: 0.4029, Val Loss: 0.4080
+ · Epoch [8/50], Train Loss: 0.3977, Val Loss: 0.4183
+ · Epoch [9/50], Train Loss: 0.4010, Val Loss: 0.4191
+ · Epoch [10/50], Train Loss: 0.3877, Val Loss: 0.4012
+ · Epoch [11/50], Train Loss: 0.3784, Val Loss: 0.4018
+ · Epoch [12/50], Train Loss: 0.3792, Val Loss: 0.4027
+ · Epoch [13/50], Train Loss: 0.3674, Val Loss: 0.4209
+ · Epoch [14/50], Train Loss: 0.3650, Val Loss: 0.4186
+ · Epoch [15/50], Train Loss: 0.3542, Val Loss: 0.4186
+ · Epoch [16/50], Train Loss: 0.3538, Val Loss: 0.4187
+ · Epoch [17/50], Train Loss: 0.3497, Val Loss: 0.4296
+ · Epoch [18/50], Train Loss: 0.3458, Val Loss: 0.4319
+ · Epoch [19/50], Train Loss: 0.3437, Val Loss: 0.4318
+ · Epoch [20/50], Train Loss: 0.3436, Val Loss: 0.4294
+
+ · No improvement in validation loss for 10 epochs, stopping...
+
+ · Validation accuracy: 87.72%
+ · Confusion Matrix:   [29  3]
+                       [ 4 21]
+
+Fold [5/5]...
+
+LEN OF TRAIN: 2530
+LEN OF VAL: 53
+
+--- Training Model: BreastCancerDetectionNet ---
+ · Epoch [1/50], Train Loss: 0.5716, Val Loss: 0.4960
+ · Epoch [2/50], Train Loss: 0.4866, Val Loss: 0.4948
+ · Epoch [3/50], Train Loss: 0.4544, Val Loss: 0.4638
+ · Epoch [4/50], Train Loss: 0.4257, Val Loss: 0.4720
+ · Epoch [5/50], Train Loss: 0.4161, Val Loss: 0.4594
+ · Epoch [6/50], Train Loss: 0.4045, Val Loss: 0.4956
+ · Epoch [7/50], Train Loss: 0.4140, Val Loss: 0.4683
+ · Epoch [8/50], Train Loss: 0.3945, Val Loss: 0.4906
+ · Epoch [9/50], Train Loss: 0.4071, Val Loss: 0.4500
+ · Epoch [10/50], Train Loss: 0.3895, Val Loss: 0.5023
+ · Epoch [11/50], Train Loss: 0.3859, Val Loss: 0.4834
+ · Epoch [12/50], Train Loss: 0.3765, Val Loss: 0.5013
+ · Epoch [13/50], Train Loss: 0.3747, Val Loss: 0.5018
+ · Epoch [14/50], Train Loss: 0.3698, Val Loss: 0.4969
+ · Epoch [15/50], Train Loss: 0.3713, Val Loss: 0.4885
+ · Epoch [16/50], Train Loss: 0.3638, Val Loss: 0.4477
+ · Epoch [17/50], Train Loss: 0.3677, Val Loss: 0.4946
+ · Epoch [18/50], Train Loss: 0.3558, Val Loss: 0.4748
+ · Epoch [19/50], Train Loss: 0.3551, Val Loss: 0.4588
+ · Epoch [20/50], Train Loss: 0.3565, Val Loss: 0.4746
+ · Epoch [21/50], Train Loss: 0.3563, Val Loss: 0.4615
+ · Epoch [22/50], Train Loss: 0.3534, Val Loss: 0.4343
+ · Epoch [23/50], Train Loss: 0.3577, Val Loss: 0.4562
+ · Epoch [24/50], Train Loss: 0.3529, Val Loss: 0.4657
+ · Epoch [25/50], Train Loss: 0.3505, Val Loss: 0.4348
+ · Epoch [26/50], Train Loss: 0.3501, Val Loss: 0.4490
+ · Epoch [27/50], Train Loss: 0.3515, Val Loss: 0.4705
+ · Epoch [28/50], Train Loss: 0.3509, Val Loss: 0.4386
+ · Epoch [29/50], Train Loss: 0.3470, Val Loss: 0.4360
+ · Epoch [30/50], Train Loss: 0.3463, Val Loss: 0.4188
+ · Epoch [31/50], Train Loss: 0.3477, Val Loss: 0.4404
+ · Epoch [32/50], Train Loss: 0.3444, Val Loss: 0.4460
+ · Epoch [33/50], Train Loss: 0.3436, Val Loss: 0.4467
+ · Epoch [34/50], Train Loss: 0.3461, Val Loss: 0.4887
+ · Epoch [35/50], Train Loss: 0.3495, Val Loss: 0.4344
+ · Epoch [36/50], Train Loss: 0.3463, Val Loss: 0.3979
+ · Epoch [37/50], Train Loss: 0.3509, Val Loss: 0.4326
+ · Epoch [38/50], Train Loss: 0.3463, Val Loss: 0.4267
+ · Epoch [39/50], Train Loss: 0.3470, Val Loss: 0.4404
+ · Epoch [40/50], Train Loss: 0.3437, Val Loss: 0.4523
+ · Epoch [41/50], Train Loss: 0.3420, Val Loss: 0.4339
+ · Epoch [42/50], Train Loss: 0.3404, Val Loss: 0.4495
+ · Epoch [43/50], Train Loss: 0.3409, Val Loss: 0.4399
+ · Epoch [44/50], Train Loss: 0.3390, Val Loss: 0.4647
+ · Epoch [45/50], Train Loss: 0.3397, Val Loss: 0.4517
+ · Epoch [46/50], Train Loss: 0.3404, Val Loss: 0.4199
+
+ · No improvement in validation loss for 10 epochs, stopping...
+
+ · Validation accuracy: 90.57%
+ · Confusion Matrix:   [32  2]
+                       [ 3 16]
+
+
+EXACTITUD - Average validation accuracy: 80.38%
+ESPECIFICIDAD - Average specificity: 91.65%
+PRECISIÓN - Average precision: 68.37%
+EXHAUSTIVIDAD - Average sensitivity: 69.18%
+F1 SCORE - Average F1-score: 68.59%
+
+
+CROSS VALIDATION Time: 8.032938 minutes.
+
+
+===================================================================================
+======================== SEED RUN 8 =========================
+===================================================================================
+
+Model: BreastCancerDetectionNet
+
+GAN: StyleGAN
+Number of folds: 5
+Number of epochs: 50
+DATASET LEN: 3113
+
+Fold [1/5]...
+
+LEN OF TRAIN: 2497
+LEN OF VAL: 56
+
+--- Training Model: BreastCancerDetectionNet ---
+ · Epoch [1/50], Train Loss: 0.5645, Val Loss: 0.4629
+ · Epoch [2/50], Train Loss: 0.4716, Val Loss: 0.5483
+ · Epoch [3/50], Train Loss: 0.4282, Val Loss: 0.5451
+ · Epoch [4/50], Train Loss: 0.4137, Val Loss: 0.4843
+ · Epoch [5/50], Train Loss: 0.4068, Val Loss: 0.5094
+ · Epoch [6/50], Train Loss: 0.4210, Val Loss: 0.5027
+ · Epoch [7/50], Train Loss: 0.4195, Val Loss: 0.5016
+ · Epoch [8/50], Train Loss: 0.3926, Val Loss: 0.5071
+ · Epoch [9/50], Train Loss: 0.4735, Val Loss: 0.4918
+ · Epoch [10/50], Train Loss: 0.4195, Val Loss: 0.4499
+ · Epoch [11/50], Train Loss: 0.3977, Val Loss: 0.4886
+ · Epoch [12/50], Train Loss: 0.3862, Val Loss: 0.5031
+ · Epoch [13/50], Train Loss: 0.3983, Val Loss: 0.4847
+ · Epoch [14/50], Train Loss: 0.4594, Val Loss: 0.4679
+ · Epoch [15/50], Train Loss: 0.4157, Val Loss: 0.4502
+ · Epoch [16/50], Train Loss: 0.3948, Val Loss: 0.4368
+ · Epoch [17/50], Train Loss: 0.3898, Val Loss: 0.4594
+ · Epoch [18/50], Train Loss: 0.3815, Val Loss: 0.4932
+ · Epoch [19/50], Train Loss: 0.3805, Val Loss: 0.4576
+ · Epoch [20/50], Train Loss: 0.3721, Val Loss: 0.4430
+ · Epoch [21/50], Train Loss: 0.3706, Val Loss: 0.4711
+ · Epoch [22/50], Train Loss: 0.3683, Val Loss: 0.4737
+ · Epoch [23/50], Train Loss: 0.3656, Val Loss: 0.4422
+ · Epoch [24/50], Train Loss: 0.3659, Val Loss: 0.4847
+ · Epoch [25/50], Train Loss: 0.3659, Val Loss: 0.4704
+ · Epoch [26/50], Train Loss: 0.3718, Val Loss: 0.4634
+
+ · No improvement in validation loss for 10 epochs, stopping...
+
+ · Validation accuracy: 83.93%
+ · Confusion Matrix:   [25  7]
+                       [ 2 22]
+
+Fold [2/5]...
+
+LEN OF TRAIN: 2508
+LEN OF VAL: 55
+
+--- Training Model: BreastCancerDetectionNet ---
+ · Epoch [1/50], Train Loss: 0.5996, Val Loss: 0.5198
+ · Epoch [2/50], Train Loss: 0.5473, Val Loss: 0.4620
+ · Epoch [3/50], Train Loss: 0.5009, Val Loss: 0.4438
+ · Epoch [4/50], Train Loss: 0.4762, Val Loss: 0.3845
+ · Epoch [5/50], Train Loss: 0.4600, Val Loss: 0.3858
+ · Epoch [6/50], Train Loss: 0.4431, Val Loss: 0.3904
+ · Epoch [7/50], Train Loss: 0.4264, Val Loss: 0.4032
+ · Epoch [8/50], Train Loss: 0.4276, Val Loss: 0.4168
+ · Epoch [9/50], Train Loss: 0.4328, Val Loss: 0.3771
+ · Epoch [10/50], Train Loss: 0.4133, Val Loss: 0.3572
+ · Epoch [11/50], Train Loss: 0.4253, Val Loss: 0.3773
+ · Epoch [12/50], Train Loss: 0.4137, Val Loss: 0.3929
+ · Epoch [13/50], Train Loss: 0.4060, Val Loss: 0.3885
+ · Epoch [14/50], Train Loss: 0.4035, Val Loss: 0.3717
+ · Epoch [15/50], Train Loss: 0.3959, Val Loss: 0.3869
+ · Epoch [16/50], Train Loss: 0.3964, Val Loss: 0.3857
+ · Epoch [17/50], Train Loss: 0.3927, Val Loss: 0.3725
+ · Epoch [18/50], Train Loss: 0.3787, Val Loss: 0.3368
+ · Epoch [19/50], Train Loss: 0.3745, Val Loss: 0.3861
+ · Epoch [20/50], Train Loss: 0.3818, Val Loss: 0.4334
+ · Epoch [21/50], Train Loss: 0.3993, Val Loss: 0.3696
+ · Epoch [22/50], Train Loss: 0.3753, Val Loss: 0.3946
+ · Epoch [23/50], Train Loss: 0.3735, Val Loss: 0.3896
+ · Epoch [24/50], Train Loss: 0.3679, Val Loss: 0.3965
+ · Epoch [25/50], Train Loss: 0.3605, Val Loss: 0.3948
+ · Epoch [26/50], Train Loss: 0.3610, Val Loss: 0.3932
+ · Epoch [27/50], Train Loss: 0.3650, Val Loss: 0.4134
+ · Epoch [28/50], Train Loss: 0.3514, Val Loss: 0.4008
+
+ · No improvement in validation loss for 10 epochs, stopping...
+
+ · Validation accuracy: 90.91%
+ · Confusion Matrix:   [32  1]
+                       [ 4 18]
+
+Fold [3/5]...
+
+LEN OF TRAIN: 2497
+LEN OF VAL: 56
+
+--- Training Model: BreastCancerDetectionNet ---
+ · Epoch [1/50], Train Loss: 0.5651, Val Loss: 0.4155
+ · Epoch [2/50], Train Loss: 0.4729, Val Loss: 0.3695
+ · Epoch [3/50], Train Loss: 0.4520, Val Loss: 0.3747
+ · Epoch [4/50], Train Loss: 0.4384, Val Loss: 0.3940
+ · Epoch [5/50], Train Loss: 0.4188, Val Loss: 0.3786
+ · Epoch [6/50], Train Loss: 0.4104, Val Loss: 0.5162
+ · Epoch [7/50], Train Loss: 0.4265, Val Loss: 0.4193
+ · Epoch [8/50], Train Loss: 0.4037, Val Loss: 0.4149
+ · Epoch [9/50], Train Loss: 0.3881, Val Loss: 0.4330
+ · Epoch [10/50], Train Loss: 0.3901, Val Loss: 0.3945
+ · Epoch [11/50], Train Loss: 0.3838, Val Loss: 0.3863
+ · Epoch [12/50], Train Loss: 0.3739, Val Loss: 0.4018
+
+ · No improvement in validation loss for 10 epochs, stopping...
+
+ · Validation accuracy: 91.07%
+ · Confusion Matrix:   [30  3]
+                       [ 2 21]
+
+Fold [4/5]...
+
+LEN OF TRAIN: 2464
+LEN OF VAL: 59
+
+--- Training Model: BreastCancerDetectionNet ---
+ · Epoch [1/50], Train Loss: 0.5650, Val Loss: 0.4693
+ · Epoch [2/50], Train Loss: 0.4783, Val Loss: 0.4504
+ · Epoch [3/50], Train Loss: 0.4379, Val Loss: 0.4904
+ · Epoch [4/50], Train Loss: 0.4150, Val Loss: 0.4789
+ · Epoch [5/50], Train Loss: 0.4118, Val Loss: 0.4966
+ · Epoch [6/50], Train Loss: 0.4095, Val Loss: 0.5002
+ · Epoch [7/50], Train Loss: 0.3986, Val Loss: 0.4770
+ · Epoch [8/50], Train Loss: 0.3884, Val Loss: 0.4964
+ · Epoch [9/50], Train Loss: 0.3803, Val Loss: 0.4902
+ · Epoch [10/50], Train Loss: 0.3830, Val Loss: 0.4783
+ · Epoch [11/50], Train Loss: 0.3748, Val Loss: 0.4906
+ · Epoch [12/50], Train Loss: 0.3651, Val Loss: 0.4856
+
+ · No improvement in validation loss for 10 epochs, stopping...
+
+ · Validation accuracy: 83.05%
+ · Confusion Matrix:   [31  4]
+                       [ 6 18]
+
+Fold [5/5]...
+
+LEN OF TRAIN: 2486
+LEN OF VAL: 57
+
+--- Training Model: BreastCancerDetectionNet ---
+ · Epoch [1/50], Train Loss: 0.5479, Val Loss: 0.4628
+ · Epoch [2/50], Train Loss: 0.4600, Val Loss: 0.4397
+ · Epoch [3/50], Train Loss: 0.4443, Val Loss: 0.4803
+ · Epoch [4/50], Train Loss: 0.4135, Val Loss: 0.4647
+ · Epoch [5/50], Train Loss: 0.4047, Val Loss: 0.4627
+ · Epoch [6/50], Train Loss: 0.3979, Val Loss: 0.4504
+ · Epoch [7/50], Train Loss: 0.3904, Val Loss: 0.4745
+ · Epoch [8/50], Train Loss: 0.3818, Val Loss: 0.4583
+ · Epoch [9/50], Train Loss: 0.3804, Val Loss: 0.4636
+ · Epoch [10/50], Train Loss: 0.3747, Val Loss: 0.5007
+ · Epoch [11/50], Train Loss: 0.3677, Val Loss: 0.4909
+ · Epoch [12/50], Train Loss: 0.3670, Val Loss: 0.4729
+
+ · No improvement in validation loss for 10 epochs, stopping...
+
+ · Validation accuracy: 84.21%
+ · Confusion Matrix:   [25  5]
+                       [ 4 23]
+
+
+EXACTITUD - Average validation accuracy: 86.63%
+ESPECIFICIDAD - Average specificity: 87.58%
+PRECISIÓN - Average precision: 84.41%
+EXHAUSTIVIDAD - Average sensitivity: 84.99%
+F1 SCORE - Average F1-score: 84.42%
+
+
+CROSS VALIDATION Time: 5.168985 minutes.
+
+
+===================================================================================
+======================== SEED RUN 9 =========================
+===================================================================================
+
+Model: BreastCancerDetectionNet
+
+GAN: StyleGAN
+Number of folds: 5
+Number of epochs: 50
+DATASET LEN: 3113
+
+Fold [1/5]...
+
+LEN OF TRAIN: 2475
+LEN OF VAL: 58
+
+--- Training Model: BreastCancerDetectionNet ---
+ · Epoch [1/50], Train Loss: 0.5877, Val Loss: 0.4038
+ · Epoch [2/50], Train Loss: 0.5069, Val Loss: 0.4301
+ · Epoch [3/50], Train Loss: 0.4706, Val Loss: 0.4814
+ · Epoch [4/50], Train Loss: 0.4503, Val Loss: 0.4234
+ · Epoch [5/50], Train Loss: 0.4328, Val Loss: 0.4376
+ · Epoch [6/50], Train Loss: 0.4213, Val Loss: 0.4141
+ · Epoch [7/50], Train Loss: 0.4193, Val Loss: 0.4230
+ · Epoch [8/50], Train Loss: 0.3950, Val Loss: 0.4225
+ · Epoch [9/50], Train Loss: 0.3915, Val Loss: 0.4119
+ · Epoch [10/50], Train Loss: 0.3840, Val Loss: 0.4010
+ · Epoch [11/50], Train Loss: 0.3756, Val Loss: 0.4084
+ · Epoch [12/50], Train Loss: 0.3778, Val Loss: 0.4008
+ · Epoch [13/50], Train Loss: 0.3659, Val Loss: 0.3834
+ · Epoch [14/50], Train Loss: 0.3666, Val Loss: 0.4001
+ · Epoch [15/50], Train Loss: 0.3633, Val Loss: 0.3867
+ · Epoch [16/50], Train Loss: 0.3598, Val Loss: 0.4010
+ · Epoch [17/50], Train Loss: 0.3585, Val Loss: 0.3852
+ · Epoch [18/50], Train Loss: 0.3558, Val Loss: 0.4050
+ · Epoch [19/50], Train Loss: 0.3532, Val Loss: 0.4100
+ · Epoch [20/50], Train Loss: 0.3543, Val Loss: 0.3853
+ · Epoch [21/50], Train Loss: 0.3518, Val Loss: 0.3927
+ · Epoch [22/50], Train Loss: 0.3545, Val Loss: 0.3976
+ · Epoch [23/50], Train Loss: 0.3492, Val Loss: 0.4002
+
+ · No improvement in validation loss for 10 epochs, stopping...
+
+ · Validation accuracy: 91.38%
+ · Confusion Matrix:   [29  1]
+                       [ 4 24]
+
+Fold [2/5]...
+
+LEN OF TRAIN: 2497
+LEN OF VAL: 56
+
+--- Training Model: BreastCancerDetectionNet ---
+ · Epoch [1/50], Train Loss: 0.5817, Val Loss: 0.4890
+ · Epoch [2/50], Train Loss: 0.5107, Val Loss: 0.4979
+ · Epoch [3/50], Train Loss: 0.4818, Val Loss: 0.4479
+ · Epoch [4/50], Train Loss: 0.4522, Val Loss: 0.4648
+ · Epoch [5/50], Train Loss: 0.4358, Val Loss: 0.4547
+ · Epoch [6/50], Train Loss: 0.4334, Val Loss: 0.4212
+ · Epoch [7/50], Train Loss: 0.4356, Val Loss: 0.5018
+ · Epoch [8/50], Train Loss: 0.4316, Val Loss: 0.4208
+ · Epoch [9/50], Train Loss: 0.4039, Val Loss: 0.4365
+ · Epoch [10/50], Train Loss: 0.4198, Val Loss: 0.4773
+ · Epoch [11/50], Train Loss: 0.3962, Val Loss: 0.4380
+ · Epoch [12/50], Train Loss: 0.3884, Val Loss: 0.4417
+ · Epoch [13/50], Train Loss: 0.3828, Val Loss: 0.4207
+ · Epoch [14/50], Train Loss: 0.3864, Val Loss: 0.4431
+ · Epoch [15/50], Train Loss: 0.3773, Val Loss: 0.4663
+ · Epoch [16/50], Train Loss: 0.3789, Val Loss: 0.4440
+ · Epoch [17/50], Train Loss: 0.3748, Val Loss: 0.4000
+ · Epoch [18/50], Train Loss: 0.3786, Val Loss: 0.4258
+ · Epoch [19/50], Train Loss: 0.3739, Val Loss: 0.4435
+ · Epoch [20/50], Train Loss: 0.3633, Val Loss: 0.4344
+ · Epoch [21/50], Train Loss: 0.3605, Val Loss: 0.4919
+ · Epoch [22/50], Train Loss: 0.3523, Val Loss: 0.4783
+ · Epoch [23/50], Train Loss: 0.3571, Val Loss: 0.4426
+ · Epoch [24/50], Train Loss: 0.3447, Val Loss: 0.4560
+ · Epoch [25/50], Train Loss: 0.3451, Val Loss: 0.4723
+ · Epoch [26/50], Train Loss: 0.3408, Val Loss: 0.4483
+ · Epoch [27/50], Train Loss: 0.3391, Val Loss: 0.5023
+
+ · No improvement in validation loss for 10 epochs, stopping...
+
+ · Validation accuracy: 80.36%
+ · Confusion Matrix:   [28  2]
+                       [ 9 17]
+
+Fold [3/5]...
+
+LEN OF TRAIN: 2486
+LEN OF VAL: 57
+
+--- Training Model: BreastCancerDetectionNet ---
+ · Epoch [1/50], Train Loss: 0.5675, Val Loss: 0.4656
+ · Epoch [2/50], Train Loss: 0.4784, Val Loss: 0.4755
+ · Epoch [3/50], Train Loss: 0.4623, Val Loss: 0.4053
+ · Epoch [4/50], Train Loss: 0.4442, Val Loss: 0.4175
+ · Epoch [5/50], Train Loss: 0.4258, Val Loss: 0.3903
+ · Epoch [6/50], Train Loss: 0.4260, Val Loss: 0.3949
+ · Epoch [7/50], Train Loss: 0.4025, Val Loss: 0.4095
+ · Epoch [8/50], Train Loss: 0.4067, Val Loss: 0.4179
+ · Epoch [9/50], Train Loss: 0.4011, Val Loss: 0.4021
+ · Epoch [10/50], Train Loss: 0.3922, Val Loss: 0.4246
+ · Epoch [11/50], Train Loss: 0.3894, Val Loss: 0.4451
+ · Epoch [12/50], Train Loss: 0.3846, Val Loss: 0.4057
+ · Epoch [13/50], Train Loss: 0.3779, Val Loss: 0.3882
+ · Epoch [14/50], Train Loss: 0.3780, Val Loss: 0.3987
+ · Epoch [15/50], Train Loss: 0.3863, Val Loss: 0.4284
+ · Epoch [16/50], Train Loss: 0.3724, Val Loss: 0.4186
+ · Epoch [17/50], Train Loss: 0.3720, Val Loss: 0.4592
+ · Epoch [18/50], Train Loss: 0.3682, Val Loss: 0.4191
+ · Epoch [19/50], Train Loss: 0.3626, Val Loss: 0.4094
+ · Epoch [20/50], Train Loss: 0.3645, Val Loss: 0.4114
+ · Epoch [21/50], Train Loss: 0.3602, Val Loss: 0.4109
+ · Epoch [22/50], Train Loss: 0.3607, Val Loss: 0.4162
+ · Epoch [23/50], Train Loss: 0.3624, Val Loss: 0.4397
+
+ · No improvement in validation loss for 10 epochs, stopping...
+
+ · Validation accuracy: 87.72%
+ · Confusion Matrix:   [34  0]
+                       [ 7 16]
+
+Fold [4/5]...
+
+LEN OF TRAIN: 2497
+LEN OF VAL: 56
+
+--- Training Model: BreastCancerDetectionNet ---
+ · Epoch [1/50], Train Loss: 0.6255, Val Loss: 0.5637
+ · Epoch [2/50], Train Loss: 0.5379, Val Loss: 0.4752
+ · Epoch [3/50], Train Loss: 0.4687, Val Loss: 0.4824
+ · Epoch [4/50], Train Loss: 0.4819, Val Loss: 0.4718
+ · Epoch [5/50], Train Loss: 0.4376, Val Loss: 0.4705
+ · Epoch [6/50], Train Loss: 0.4149, Val Loss: 0.4643
+ · Epoch [7/50], Train Loss: 0.4085, Val Loss: 0.4999
+ · Epoch [8/50], Train Loss: 0.4024, Val Loss: 0.4435
+ · Epoch [9/50], Train Loss: 0.4074, Val Loss: 0.4526
+ · Epoch [10/50], Train Loss: 0.3951, Val Loss: 0.4688
+ · Epoch [11/50], Train Loss: 0.4093, Val Loss: 0.4329
+ · Epoch [12/50], Train Loss: 0.3779, Val Loss: 0.4650
+ · Epoch [13/50], Train Loss: 0.3764, Val Loss: 0.4536
+ · Epoch [14/50], Train Loss: 0.3726, Val Loss: 0.4558
+ · Epoch [15/50], Train Loss: 0.3936, Val Loss: 0.4312
+ · Epoch [16/50], Train Loss: 0.3737, Val Loss: 0.4435
+ · Epoch [17/50], Train Loss: 0.3630, Val Loss: 0.4710
+ · Epoch [18/50], Train Loss: 0.3579, Val Loss: 0.4344
+ · Epoch [19/50], Train Loss: 0.3601, Val Loss: 0.4533
+ · Epoch [20/50], Train Loss: 0.3611, Val Loss: 0.4540
+ · Epoch [21/50], Train Loss: 0.3563, Val Loss: 0.4364
+ · Epoch [22/50], Train Loss: 0.3688, Val Loss: 0.4351
+ · Epoch [23/50], Train Loss: 0.3581, Val Loss: 0.4395
+ · Epoch [24/50], Train Loss: 0.3513, Val Loss: 0.4446
+ · Epoch [25/50], Train Loss: 0.3512, Val Loss: 0.4284
+ · Epoch [26/50], Train Loss: 0.3515, Val Loss: 0.4209
+ · Epoch [27/50], Train Loss: 0.3474, Val Loss: 0.4295
+ · Epoch [28/50], Train Loss: 0.3585, Val Loss: 0.5004
+ · Epoch [29/50], Train Loss: 0.3521, Val Loss: 0.4449
+ · Epoch [30/50], Train Loss: 0.3497, Val Loss: 0.4257
+ · Epoch [31/50], Train Loss: 0.3450, Val Loss: 0.4196
+ · Epoch [32/50], Train Loss: 0.3440, Val Loss: 0.4430
+ · Epoch [33/50], Train Loss: 0.3413, Val Loss: 0.4236
+ · Epoch [34/50], Train Loss: 0.3412, Val Loss: 0.4590
+ · Epoch [35/50], Train Loss: 0.3704, Val Loss: 0.4181
+ · Epoch [36/50], Train Loss: 0.3459, Val Loss: 0.4346
+ · Epoch [37/50], Train Loss: 0.3435, Val Loss: 0.4545
+ · Epoch [38/50], Train Loss: 0.3415, Val Loss: 0.4237
+ · Epoch [39/50], Train Loss: 0.3400, Val Loss: 0.4655
+ · Epoch [40/50], Train Loss: 0.3388, Val Loss: 0.4159
+ · Epoch [41/50], Train Loss: 0.3362, Val Loss: 0.4388
+ · Epoch [42/50], Train Loss: 0.3412, Val Loss: 0.4307
+ · Epoch [43/50], Train Loss: 0.3376, Val Loss: 0.4336
+ · Epoch [44/50], Train Loss: 0.3387, Val Loss: 0.4535
+ · Epoch [45/50], Train Loss: 0.3629, Val Loss: 0.4333
+ · Epoch [46/50], Train Loss: 0.3348, Val Loss: 0.4239
+ · Epoch [47/50], Train Loss: 0.3333, Val Loss: 0.4341
+ · Epoch [48/50], Train Loss: 0.3312, Val Loss: 0.4576
+ · Epoch [49/50], Train Loss: 0.3315, Val Loss: 0.4382
+ · Epoch [50/50], Train Loss: 0.3559, Val Loss: 0.4271
+
+ · No improvement in validation loss for 10 epochs, stopping...
+
+ · Validation accuracy: 89.29%
+ · Confusion Matrix:   [30  2]
+                       [ 4 20]
+
+Fold [5/5]...
+
+LEN OF TRAIN: 2497
+LEN OF VAL: 56
+
+--- Training Model: BreastCancerDetectionNet ---
+ · Epoch [1/50], Train Loss: 0.6606, Val Loss: 0.4874
+ · Epoch [2/50], Train Loss: 0.5658, Val Loss: 0.4500
+ · Epoch [3/50], Train Loss: 0.5299, Val Loss: 0.4711
+ · Epoch [4/50], Train Loss: 0.4970, Val Loss: 0.4603
+ · Epoch [5/50], Train Loss: 0.4915, Val Loss: 0.4793
+ · Epoch [6/50], Train Loss: 0.4706, Val Loss: 0.4695
+ · Epoch [7/50], Train Loss: 0.4357, Val Loss: 0.4310
+ · Epoch [8/50], Train Loss: 0.4256, Val Loss: 0.4810
+ · Epoch [9/50], Train Loss: 0.4164, Val Loss: 0.4542
+ · Epoch [10/50], Train Loss: 0.4214, Val Loss: 0.4569
+ · Epoch [11/50], Train Loss: 0.4141, Val Loss: 0.4420
+ · Epoch [12/50], Train Loss: 0.4211, Val Loss: 0.4389
+ · Epoch [13/50], Train Loss: 0.5564, Val Loss: 0.4534
+ · Epoch [14/50], Train Loss: 0.4449, Val Loss: 0.4650
+ · Epoch [15/50], Train Loss: 0.4253, Val Loss: 0.4453
+ · Epoch [16/50], Train Loss: 0.4015, Val Loss: 0.4565
+ · Epoch [17/50], Train Loss: 0.3947, Val Loss: 0.4473
+
+ · No improvement in validation loss for 10 epochs, stopping...
+
+ · Validation accuracy: 87.50%
+ · Confusion Matrix:   [32  5]
+                       [ 2 17]
+
+
+EXACTITUD - Average validation accuracy: 87.25%
+ESPECIFICIDAD - Average specificity: 94.05%
+PRECISIÓN - Average precision: 90.73%
+EXHAUSTIVIDAD - Average sensitivity: 78.69%
+F1 SCORE - Average F1-score: 83.61%
+
+
+CROSS VALIDATION Time: 8.121476 minutes.
+
+
+===================================================================================
+======================== SEED RUN 10 =========================
+===================================================================================
+
+Model: BreastCancerDetectionNet
+
+GAN: StyleGAN
+Number of folds: 5
+Number of epochs: 50
+DATASET LEN: 3113
+
+Fold [1/5]...
+
+LEN OF TRAIN: 2497
+LEN OF VAL: 56
+
+--- Training Model: BreastCancerDetectionNet ---
+ · Epoch [1/50], Train Loss: 0.5818, Val Loss: 0.4751
+ · Epoch [2/50], Train Loss: 0.4906, Val Loss: 0.4391
+ · Epoch [3/50], Train Loss: 0.4476, Val Loss: 0.4264
+ · Epoch [4/50], Train Loss: 0.4370, Val Loss: 0.4535
+ · Epoch [5/50], Train Loss: 0.4165, Val Loss: 0.4560
+ · Epoch [6/50], Train Loss: 0.4289, Val Loss: 0.4415
+ · Epoch [7/50], Train Loss: 0.4817, Val Loss: 0.4397
+ · Epoch [8/50], Train Loss: 0.4121, Val Loss: 0.4837
+ · Epoch [9/50], Train Loss: 0.4030, Val Loss: 0.4476
+ · Epoch [10/50], Train Loss: 0.3911, Val Loss: 0.4326
+ · Epoch [11/50], Train Loss: 0.3851, Val Loss: 0.4357
+ · Epoch [12/50], Train Loss: 0.3791, Val Loss: 0.4322
+ · Epoch [13/50], Train Loss: 0.3775, Val Loss: 0.4354
+
+ · No improvement in validation loss for 10 epochs, stopping...
+
+ · Validation accuracy: 85.71%
+ · Confusion Matrix:   [30  3]
+                       [ 5 18]
+
+Fold [2/5]...
+
+LEN OF TRAIN: 2508
+LEN OF VAL: 55
+
+--- Training Model: BreastCancerDetectionNet ---
+ · Epoch [1/50], Train Loss: 0.6090, Val Loss: 0.5719
+ · Epoch [2/50], Train Loss: 0.5162, Val Loss: 0.4271
+ · Epoch [3/50], Train Loss: 0.4736, Val Loss: 0.4653
+ · Epoch [4/50], Train Loss: 0.4482, Val Loss: 0.4655
+ · Epoch [5/50], Train Loss: 0.4446, Val Loss: 0.4324
+ · Epoch [6/50], Train Loss: 0.4301, Val Loss: 0.4422
+ · Epoch [7/50], Train Loss: 0.4242, Val Loss: 0.4311
+ · Epoch [8/50], Train Loss: 0.4192, Val Loss: 0.4344
+ · Epoch [9/50], Train Loss: 0.4221, Val Loss: 0.4420
+ · Epoch [10/50], Train Loss: 0.4046, Val Loss: 0.4172
+ · Epoch [11/50], Train Loss: 0.4037, Val Loss: 0.4111
+ · Epoch [12/50], Train Loss: 0.4058, Val Loss: 0.4134
+ · Epoch [13/50], Train Loss: 0.4005, Val Loss: 0.4042
+ · Epoch [14/50], Train Loss: 0.3905, Val Loss: 0.4224
+ · Epoch [15/50], Train Loss: 0.3860, Val Loss: 0.4105
+ · Epoch [16/50], Train Loss: 0.3921, Val Loss: 0.4223
+ · Epoch [17/50], Train Loss: 0.3848, Val Loss: 0.4221
+ · Epoch [18/50], Train Loss: 0.3828, Val Loss: 0.4108
+ · Epoch [19/50], Train Loss: 0.3748, Val Loss: 0.4216
+ · Epoch [20/50], Train Loss: 0.3680, Val Loss: 0.4019
+ · Epoch [21/50], Train Loss: 0.3679, Val Loss: 0.4208
+ · Epoch [22/50], Train Loss: 0.3671, Val Loss: 0.3806
+ · Epoch [23/50], Train Loss: 0.3657, Val Loss: 0.4193
+ · Epoch [24/50], Train Loss: 0.3567, Val Loss: 0.4203
+ · Epoch [25/50], Train Loss: 0.3596, Val Loss: 0.4216
+ · Epoch [26/50], Train Loss: 0.3539, Val Loss: 0.3810
+ · Epoch [27/50], Train Loss: 0.3542, Val Loss: 0.4194
+ · Epoch [28/50], Train Loss: 0.3552, Val Loss: 0.4137
+ · Epoch [29/50], Train Loss: 0.3548, Val Loss: 0.4195
+ · Epoch [30/50], Train Loss: 0.3502, Val Loss: 0.4216
+ · Epoch [31/50], Train Loss: 0.3463, Val Loss: 0.4160
+ · Epoch [32/50], Train Loss: 0.3450, Val Loss: 0.4187
+
+ · No improvement in validation loss for 10 epochs, stopping...
+
+ · Validation accuracy: 89.09%
+ · Confusion Matrix:   [27  4]
+                       [ 2 22]
+
+Fold [3/5]...
+
+LEN OF TRAIN: 2486
+LEN OF VAL: 57
+
+--- Training Model: BreastCancerDetectionNet ---
+ · Epoch [1/50], Train Loss: 0.5866, Val Loss: 0.5044
+ · Epoch [2/50], Train Loss: 0.5113, Val Loss: 0.5826
+ · Epoch [3/50], Train Loss: 0.4652, Val Loss: 0.4306
+ · Epoch [4/50], Train Loss: 0.4583, Val Loss: 0.4355
+ · Epoch [5/50], Train Loss: 0.4373, Val Loss: 0.4368
+ · Epoch [6/50], Train Loss: 0.4187, Val Loss: 0.4372
+ · Epoch [7/50], Train Loss: 0.4088, Val Loss: 0.4147
+ · Epoch [8/50], Train Loss: 0.4113, Val Loss: 0.4133
+ · Epoch [9/50], Train Loss: 0.4025, Val Loss: 0.4558
+ · Epoch [10/50], Train Loss: 0.3889, Val Loss: 0.4415
+ · Epoch [11/50], Train Loss: 0.3830, Val Loss: 0.4545
+ · Epoch [12/50], Train Loss: 0.3732, Val Loss: 0.4320
+ · Epoch [13/50], Train Loss: 0.3701, Val Loss: 0.4604
+ · Epoch [14/50], Train Loss: 0.3648, Val Loss: 0.4186
+ · Epoch [15/50], Train Loss: 0.3645, Val Loss: 0.4594
+ · Epoch [16/50], Train Loss: 0.3592, Val Loss: 0.4560
+ · Epoch [17/50], Train Loss: 0.3650, Val Loss: 0.5172
+ · Epoch [18/50], Train Loss: 0.3574, Val Loss: 0.4781
+
+ · No improvement in validation loss for 10 epochs, stopping...
+
+ · Validation accuracy: 82.46%
+ · Confusion Matrix:   [25  3]
+                       [ 7 22]
+
+Fold [4/5]...
+
+LEN OF TRAIN: 2497
+LEN OF VAL: 56
+
+--- Training Model: BreastCancerDetectionNet ---
+ · Epoch [1/50], Train Loss: 0.6060, Val Loss: 0.5725
+ · Epoch [2/50], Train Loss: 0.5071, Val Loss: 0.4791
+ · Epoch [3/50], Train Loss: 0.4844, Val Loss: 0.5252
+ · Epoch [4/50], Train Loss: 0.4642, Val Loss: 0.4875
+ · Epoch [5/50], Train Loss: 0.4226, Val Loss: 0.4742
+ · Epoch [6/50], Train Loss: 0.4042, Val Loss: 0.4529
+ · Epoch [7/50], Train Loss: 0.4059, Val Loss: 0.4906
+ · Epoch [8/50], Train Loss: 0.3980, Val Loss: 0.4427
+ · Epoch [9/50], Train Loss: 0.3912, Val Loss: 0.4881
+ · Epoch [10/50], Train Loss: 0.3833, Val Loss: 0.4289
+ · Epoch [11/50], Train Loss: 0.3835, Val Loss: 0.4544
+ · Epoch [12/50], Train Loss: 0.3747, Val Loss: 0.4409
+ · Epoch [13/50], Train Loss: 0.3608, Val Loss: 0.4258
+ · Epoch [14/50], Train Loss: 0.3586, Val Loss: 0.4350
+ · Epoch [15/50], Train Loss: 0.3626, Val Loss: 0.3905
+ · Epoch [16/50], Train Loss: 0.3579, Val Loss: 0.4352
+ · Epoch [17/50], Train Loss: 0.3569, Val Loss: 0.4258
+ · Epoch [18/50], Train Loss: 0.3592, Val Loss: 0.4462
+ · Epoch [19/50], Train Loss: 0.3489, Val Loss: 0.4077
+ · Epoch [20/50], Train Loss: 0.3481, Val Loss: 0.4138
+ · Epoch [21/50], Train Loss: 0.3439, Val Loss: 0.4128
+ · Epoch [22/50], Train Loss: 0.3569, Val Loss: 0.4428
+ · Epoch [23/50], Train Loss: 0.3465, Val Loss: 0.4389
+ · Epoch [24/50], Train Loss: 0.3470, Val Loss: 0.4389
+ · Epoch [25/50], Train Loss: 0.3400, Val Loss: 0.4095
+
+ · No improvement in validation loss for 10 epochs, stopping...
+
+ · Validation accuracy: 89.29%
+ · Confusion Matrix:   [32  3]
+                       [ 3 18]
+
+Fold [5/5]...
+
+LEN OF TRAIN: 2464
+LEN OF VAL: 59
+
+--- Training Model: BreastCancerDetectionNet ---
+ · Epoch [1/50], Train Loss: 0.6055, Val Loss: 0.4177
+ · Epoch [2/50], Train Loss: 0.5079, Val Loss: 0.4022
+ · Epoch [3/50], Train Loss: 0.4667, Val Loss: 0.4118
+ · Epoch [4/50], Train Loss: 0.4352, Val Loss: 0.4039
+ · Epoch [5/50], Train Loss: 0.4159, Val Loss: 0.4443
+ · Epoch [6/50], Train Loss: 0.4098, Val Loss: 0.4380
+ · Epoch [7/50], Train Loss: 0.4049, Val Loss: 0.4571
+ · Epoch [8/50], Train Loss: 0.3920, Val Loss: 0.4392
+ · Epoch [9/50], Train Loss: 0.3901, Val Loss: 0.4520
+ · Epoch [10/50], Train Loss: 0.3858, Val Loss: 0.4415
+ · Epoch [11/50], Train Loss: 0.3793, Val Loss: 0.4513
+ · Epoch [12/50], Train Loss: 0.3724, Val Loss: 0.4295
+
+ · No improvement in validation loss for 10 epochs, stopping...
+
+ · Validation accuracy: 88.14%
+ · Confusion Matrix:   [32  4]
+                       [ 3 20]
+
+
+EXACTITUD - Average validation accuracy: 86.94%
+ESPECIFICIDAD - Average specificity: 89.52%
+PRECISIÓN - Average precision: 85.48%
+EXHAUSTIVIDAD - Average sensitivity: 83.69%
+F1 SCORE - Average F1-score: 84.42%
+
+
+CROSS VALIDATION Time: 5.895491 minutes.
+
+
+===================================================================================
+======================== FINAL RESULTS =========================
+===================================================================================
+EXACTITUD - MEAN 83.8893688053456 - VARIANCE 107.15296726647425 - STANDAR DEVIATION 10.351471743982797
+ESPECIFICIDAD - MEAN 0.9077399598381571 - VARIANCE 0.00424332638963039 - STANDAR DEVIATION 0.06514081968804498
+PRECISION - MEAN 0.7752279341078746 - VARIANCE 0.07106807233146833 - STANDAR DEVIATION 0.26658595674091373
+EXHAUSTIVIDAD - MEAN 0.7494764325389985 - VARIANCE 0.06926952018900664 - STANDAR DEVIATION 0.26319103364097846
+F1_SCORE - MEAN 0.7578380836885702 - VARIANCE 0.06631130040658667 - STANDAR DEVIATION 0.25750980642800125

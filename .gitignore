@@ -1,0 +1,23 @@
+# Entornos y cachés
+venv/
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Resultados generados por los entrenamientos (muy voluminosos y reproducibles)
+images/
+training_results/
+
+# Modelos preentrenados / pesos
+trained_models/
+*.pkl
+*.pth
+*.pt
+
+# Dataset (de terceros; ver README para su descarga) y su versión aumentada
+datasets/thermographic_breast_cancer_dataset_frontal_crop_images/
+datasets/thermographic_breast_cancer_dataset_frontal_crop_images_augmented/
+
+# Scratch
+prueba.py

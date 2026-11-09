@@ -1,0 +1,11 @@
+torch
+torchvision
+torchmetrics
+torch-fidelity   # requerido por torchmetrics para FID/KID
+torchview        # solo para draw_models.py
+scikit-learn
+pandas
+numpy
+matplotlib
+opencv-python
+Pillow

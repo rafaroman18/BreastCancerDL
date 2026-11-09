@@ -1,0 +1,383 @@
+--------------------------------------------
+Starting hyperparameters tuning. GridSearch.
+Values:
+
+LR: [0.001, 0.0002, 0.0001]
+LR_GEN: [1e-05, 0.0002, 0.0001]
+B_UNO: [0, 0.5]
+B_DOS: [0.9, 0.999]
+EPOCHS: [60]
+--------------------------------------------
+
+Current Values: 0.001 LEARNING RATE - 1e-05 LEARNING RATE GEN - 0 B_1 - 0.9 B_2 - 60 epochs
+
+===== STEP: 0 - IMAGE SIZE: 4 =====
+Epoch [1/ 60] [Image Size: 4] [D loss: 0.216311] [G loss: 0.174685] [Last KID: 0.715886] [Last FID: 500.271240]
+===== STEP: 1 - IMAGE SIZE: 8 =====
+Epoch [1/ 60] [Image Size: 8] [D loss: -2.920406] [G loss: 5.273626] [Last KID: 0.578447] [Last FID: 441.428741]
+===== STEP: 2 - IMAGE SIZE: 16 =====
+Epoch [1/ 60] [Image Size: 16] [D loss: -2.316851] [G loss: 4.797380] [Last KID: 0.658579] [Last FID: 507.781616]
+===== STEP: 3 - IMAGE SIZE: 32 =====
+Epoch [1/ 60] [Image Size: 32] [D loss: -4.719972] [G loss: 4.457027] [Last KID: 0.712332] [Last FID: 530.045837]
+===== STEP: 4 - IMAGE SIZE: 64 =====
+Epoch [1/ 60] [Image Size: 64] [D loss: -13.184470] [G loss: 19.937067] [Last KID: 0.541574] [Last FID: 443.824982]
+===== STEP: 5 - IMAGE SIZE: 128 =====
+Epoch [1/ 60] [Image Size: 128] [D loss: -44.272327] [G loss: 36.101986] [Last KID: 0.430861] [Last FID: 391.572998]
+Epoch [60/ 60] [Image Size: 128] [D loss: -37.056850] [G loss: 59.779934] [Last KID: 0.271551] [Last FID: 298.465210]
+Training Time: 87.483342 minutes.
+
+----- Current KID Score: 0.26300060749053955 || Current FID Score: 297.3123779296875 -----
+
+Current Values: 0.001 LEARNING RATE - 1e-05 LEARNING RATE GEN - 0 B_1 - 0.999 B_2 - 60 epochs
+
+===== STEP: 0 - IMAGE SIZE: 4 =====
+Epoch [1/ 60] [Image Size: 4] [D loss: -1.623682] [G loss: 2.352316] [Last KID: 0.721942] [Last FID: 503.129913]
+===== STEP: 1 - IMAGE SIZE: 8 =====
+Epoch [1/ 60] [Image Size: 8] [D loss: -3.667931] [G loss: 6.408036] [Last KID: 0.551576] [Last FID: 437.118896]
+===== STEP: 2 - IMAGE SIZE: 16 =====
+Epoch [1/ 60] [Image Size: 16] [D loss: -3.579699] [G loss: 7.583684] [Last KID: 0.504562] [Last FID: 413.823578]
+===== STEP: 3 - IMAGE SIZE: 32 =====
+Epoch [1/ 60] [Image Size: 32] [D loss: -4.701863] [G loss: 5.792608] [Last KID: 0.667336] [Last FID: 520.129211]
+===== STEP: 4 - IMAGE SIZE: 64 =====
+Epoch [1/ 60] [Image Size: 64] [D loss: -14.381050] [G loss: 8.233627] [Last KID: 0.521369] [Last FID: 443.725037]
+===== STEP: 5 - IMAGE SIZE: 128 =====
+Epoch [1/ 60] [Image Size: 128] [D loss: -39.316647] [G loss: 53.428982] [Last KID: 0.427362] [Last FID: 388.603638]
+Epoch [60/ 60] [Image Size: 128] [D loss: -39.698635] [G loss: 63.028187] [Last KID: 0.321545] [Last FID: 341.014435]
+Training Time: 87.264783 minutes.
+
+----- Current KID Score: 0.33082523941993713 || Current FID Score: 335.1649475097656 -----
+
+Current Values: 0.001 LEARNING RATE - 1e-05 LEARNING RATE GEN - 0.5 B_1 - 0.9 B_2 - 60 epochs
+
+===== STEP: 0 - IMAGE SIZE: 4 =====
+Epoch [1/ 60] [Image Size: 4] [D loss: -2.851020] [G loss: 4.700879] [Last KID: 0.717762] [Last FID: 500.635468]
+===== STEP: 1 - IMAGE SIZE: 8 =====
+Epoch [1/ 60] [Image Size: 8] [D loss: -2.160385] [G loss: 4.439606] [Last KID: 0.463252] [Last FID: 379.935822]
+===== STEP: 2 - IMAGE SIZE: 16 =====
+Epoch [1/ 60] [Image Size: 16] [D loss: -2.143071] [G loss: 4.302837] [Last KID: 0.630506] [Last FID: 493.019592]
+===== STEP: 3 - IMAGE SIZE: 32 =====
+Epoch [1/ 60] [Image Size: 32] [D loss: -4.924305] [G loss: 4.725999] [Last KID: 0.761252] [Last FID: 546.315186]
+===== STEP: 4 - IMAGE SIZE: 64 =====
+Epoch [1/ 60] [Image Size: 64] [D loss: -11.907555] [G loss: 16.461136] [Last KID: 0.578237] [Last FID: 456.888336]
+===== STEP: 5 - IMAGE SIZE: 128 =====
+Epoch [1/ 60] [Image Size: 128] [D loss: -35.671227] [G loss: 44.958202] [Last KID: 0.436324] [Last FID: 394.961304]
+Epoch [60/ 60] [Image Size: 128] [D loss: -38.692417] [G loss: 53.222988] [Last KID: 0.247461] [Last FID: 290.765167]
+Training Time: 87.441449 minutes.
+
+----- Current KID Score: 0.2566434144973755 || Current FID Score: 290.82275390625 -----
+
+Current Values: 0.001 LEARNING RATE - 1e-05 LEARNING RATE GEN - 0.5 B_1 - 0.999 B_2 - 60 epochs
+
+===== STEP: 0 - IMAGE SIZE: 4 =====
+Epoch [1/ 60] [Image Size: 4] [D loss: -0.898795] [G loss: 1.717421] [Last KID: 0.711125] [Last FID: 503.538666]
+===== STEP: 1 - IMAGE SIZE: 8 =====
+Epoch [1/ 60] [Image Size: 8] [D loss: -1.270095] [G loss: 2.029239] [Last KID: 0.430182] [Last FID: 369.294708]
+===== STEP: 2 - IMAGE SIZE: 16 =====
+Epoch [1/ 60] [Image Size: 16] [D loss: -1.650375] [G loss: 3.790196] [Last KID: 0.648630] [Last FID: 499.702179]
+===== STEP: 3 - IMAGE SIZE: 32 =====
+Epoch [1/ 60] [Image Size: 32] [D loss: -4.713834] [G loss: 5.548371] [Last KID: 0.666486] [Last FID: 508.979401]
+===== STEP: 4 - IMAGE SIZE: 64 =====
+Epoch [1/ 60] [Image Size: 64] [D loss: -12.271813] [G loss: 11.337945] [Last KID: 0.559066] [Last FID: 454.294769]
+===== STEP: 5 - IMAGE SIZE: 128 =====
+Epoch [1/ 60] [Image Size: 128] [D loss: -36.419079] [G loss: 62.777576] [Last KID: 0.422754] [Last FID: 385.012390]
+Epoch [60/ 60] [Image Size: 128] [D loss: -38.213398] [G loss: 53.470936] [Last KID: 0.268566] [Last FID: 299.730225]
+Training Time: 87.832417 minutes.
+
+----- Current KID Score: 0.28652122616767883 || Current FID Score: 305.7734680175781 -----
+
+Current Values: 0.001 LEARNING RATE - 0.0002 LEARNING RATE GEN - 0 B_1 - 0.9 B_2 - 60 epochs
+
+===== STEP: 0 - IMAGE SIZE: 4 =====
+Epoch [1/ 60] [Image Size: 4] [D loss: 1.627173] [G loss: 0.099643] [Last KID: 0.714944] [Last FID: 505.241150]
+===== STEP: 1 - IMAGE SIZE: 8 =====
+Epoch [1/ 60] [Image Size: 8] [D loss: 0.525795] [G loss: 1.071747] [Last KID: 0.448794] [Last FID: 372.335510]
+===== STEP: 2 - IMAGE SIZE: 16 =====
+Epoch [1/ 60] [Image Size: 16] [D loss: -1.257903] [G loss: 3.416504] [Last KID: 0.515831] [Last FID: 408.613220]
+===== STEP: 3 - IMAGE SIZE: 32 =====
+Epoch [1/ 60] [Image Size: 32] [D loss: -5.271500] [G loss: 3.930568] [Last KID: 0.630325] [Last FID: 499.742126]
+===== STEP: 4 - IMAGE SIZE: 64 =====
+Epoch [1/ 60] [Image Size: 64] [D loss: -12.956024] [G loss: 16.479090] [Last KID: 0.552329] [Last FID: 439.983124]
+===== STEP: 5 - IMAGE SIZE: 128 =====
+Epoch [1/ 60] [Image Size: 128] [D loss: -35.660385] [G loss: 44.513443] [Last KID: 0.447562] [Last FID: 393.257996]
+Epoch [60/ 60] [Image Size: 128] [D loss: -40.832302] [G loss: 53.812695] [Last KID: 0.338366] [Last FID: 333.799500]
+Training Time: 87.380511 minutes.
+
+----- Current KID Score: 0.34067878127098083 || Current FID Score: 331.62030029296875 -----
+
+Current Values: 0.001 LEARNING RATE - 0.0002 LEARNING RATE GEN - 0 B_1 - 0.999 B_2 - 60 epochs
+
+===== STEP: 0 - IMAGE SIZE: 4 =====
+Epoch [1/ 60] [Image Size: 4] [D loss: -0.220441] [G loss: 0.106288] [Last KID: 0.726790] [Last FID: 505.045502]
+===== STEP: 1 - IMAGE SIZE: 8 =====
+Epoch [1/ 60] [Image Size: 8] [D loss: 0.994846] [G loss: 0.201492] [Last KID: 0.436327] [Last FID: 370.872803]
+===== STEP: 2 - IMAGE SIZE: 16 =====
+Epoch [1/ 60] [Image Size: 16] [D loss: -1.683273] [G loss: 4.050275] [Last KID: 0.620309] [Last FID: 480.257385]
+===== STEP: 3 - IMAGE SIZE: 32 =====
+Epoch [1/ 60] [Image Size: 32] [D loss: -4.959081] [G loss: 4.257166] [Last KID: 0.686417] [Last FID: 510.973541]
+===== STEP: 4 - IMAGE SIZE: 64 =====
+Epoch [1/ 60] [Image Size: 64] [D loss: -13.448589] [G loss: 13.784472] [Last KID: 0.529873] [Last FID: 442.301941]
+===== STEP: 5 - IMAGE SIZE: 128 =====
+Epoch [1/ 60] [Image Size: 128] [D loss: -35.354889] [G loss: 40.225128] [Last KID: 0.461814] [Last FID: 395.574432]
+Epoch [60/ 60] [Image Size: 128] [D loss: -40.874401] [G loss: 57.416286] [Last KID: 0.280183] [Last FID: 306.580322]
+Training Time: 87.348998 minutes.
+
+----- Current KID Score: 0.28339889645576477 || Current FID Score: 308.8253173828125 -----
+
+Current Values: 0.001 LEARNING RATE - 0.0002 LEARNING RATE GEN - 0.5 B_1 - 0.9 B_2 - 60 epochs
+
+===== STEP: 0 - IMAGE SIZE: 4 =====
+Epoch [1/ 60] [Image Size: 4] [D loss: -1.931604] [G loss: 3.772016] [Last KID: 0.712921] [Last FID: 504.382507]
+===== STEP: 1 - IMAGE SIZE: 8 =====
+Epoch [1/ 60] [Image Size: 8] [D loss: -1.505437] [G loss: 1.347246] [Last KID: 0.481864] [Last FID: 411.647858]
+===== STEP: 2 - IMAGE SIZE: 16 =====
+Epoch [1/ 60] [Image Size: 16] [D loss: -1.906989] [G loss: 3.337970] [Last KID: 0.606571] [Last FID: 486.284241]
+===== STEP: 3 - IMAGE SIZE: 32 =====
+Epoch [1/ 60] [Image Size: 32] [D loss: -3.253357] [G loss: 5.521535] [Last KID: 0.626303] [Last FID: 494.558807]
+===== STEP: 4 - IMAGE SIZE: 64 =====
+Epoch [1/ 60] [Image Size: 64] [D loss: -13.240822] [G loss: 13.444040] [Last KID: 0.582025] [Last FID: 469.556915]
+===== STEP: 5 - IMAGE SIZE: 128 =====
+Epoch [1/ 60] [Image Size: 128] [D loss: -39.646458] [G loss: 66.180923] [Last KID: 0.487794] [Last FID: 397.863983]
+Epoch [60/ 60] [Image Size: 128] [D loss: -39.825031] [G loss: 61.682343] [Last KID: 0.312651] [Last FID: 328.548035]
+Training Time: 87.439077 minutes.
+
+----- Current KID Score: 0.32409578561782837 || Current FID Score: 327.7728271484375 -----
+
+Current Values: 0.001 LEARNING RATE - 0.0002 LEARNING RATE GEN - 0.5 B_1 - 0.999 B_2 - 60 epochs
+
+===== STEP: 0 - IMAGE SIZE: 4 =====
+Epoch [1/ 60] [Image Size: 4] [D loss: -0.623509] [G loss: 1.058583] [Last KID: 0.726225] [Last FID: 504.830139]
+===== STEP: 1 - IMAGE SIZE: 8 =====
+Epoch [1/ 60] [Image Size: 8] [D loss: -1.169370] [G loss: 3.425643] [Last KID: 0.612790] [Last FID: 473.809875]
+===== STEP: 2 - IMAGE SIZE: 16 =====
+Epoch [1/ 60] [Image Size: 16] [D loss: -1.880378] [G loss: 4.920346] [Last KID: 0.634156] [Last FID: 508.338470]
+===== STEP: 3 - IMAGE SIZE: 32 =====
+Epoch [1/ 60] [Image Size: 32] [D loss: -5.207548] [G loss: 4.262396] [Last KID: 0.742047] [Last FID: 546.542664]
+===== STEP: 4 - IMAGE SIZE: 64 =====
+Epoch [1/ 60] [Image Size: 64] [D loss: -12.714522] [G loss: 17.383305] [Last KID: 0.561558] [Last FID: 455.184479]
+===== STEP: 5 - IMAGE SIZE: 128 =====
+Epoch [1/ 60] [Image Size: 128] [D loss: -36.295448] [G loss: 53.351398] [Last KID: 0.452107] [Last FID: 398.404510]
+Epoch [60/ 60] [Image Size: 128] [D loss: -37.382713] [G loss: 56.796986] [Last KID: 0.290901] [Last FID: 307.126160]
+Training Time: 87.377967 minutes.
+
+----- Current KID Score: 0.2789342701435089 || Current FID Score: 306.22601318359375 -----
+
+Current Values: 0.001 LEARNING RATE - 0.0001 LEARNING RATE GEN - 0 B_1 - 0.9 B_2 - 60 epochs
+
+===== STEP: 0 - IMAGE SIZE: 4 =====
+Epoch [1/ 60] [Image Size: 4] [D loss: -1.168033] [G loss: 2.574078] [Last KID: 0.727006] [Last FID: 502.562134]
+===== STEP: 1 - IMAGE SIZE: 8 =====
+Epoch [1/ 60] [Image Size: 8] [D loss: -1.417154] [G loss: 4.391925] [Last KID: 0.588224] [Last FID: 450.511993]
+===== STEP: 2 - IMAGE SIZE: 16 =====
+Epoch [1/ 60] [Image Size: 16] [D loss: -1.689487] [G loss: 3.153867] [Last KID: 0.610046] [Last FID: 489.102386]
+===== STEP: 3 - IMAGE SIZE: 32 =====
+Epoch [1/ 60] [Image Size: 32] [D loss: -5.237499] [G loss: 6.386978] [Last KID: 0.683347] [Last FID: 518.029663]
+===== STEP: 4 - IMAGE SIZE: 64 =====
+Epoch [1/ 60] [Image Size: 64] [D loss: -12.961552] [G loss: 15.304793] [Last KID: 0.530400] [Last FID: 436.239136]
+===== STEP: 5 - IMAGE SIZE: 128 =====
+Epoch [1/ 60] [Image Size: 128] [D loss: -39.330536] [G loss: 48.724533] [Last KID: 0.446322] [Last FID: 384.765686]
+Epoch [60/ 60] [Image Size: 128] [D loss: -35.820129] [G loss: 61.475002] [Last KID: 0.302301] [Last FID: 317.244843]
+Training Time: 87.249991 minutes.
+
+----- Current KID Score: 0.2776435315608978 || Current FID Score: 311.6855773925781 -----
+
+Current Values: 0.001 LEARNING RATE - 0.0001 LEARNING RATE GEN - 0 B_1 - 0.999 B_2 - 60 epochs
+
+===== STEP: 0 - IMAGE SIZE: 4 =====
+Epoch [1/ 60] [Image Size: 4] [D loss: -0.085641] [G loss: 0.394184] [Last KID: 0.727413] [Last FID: 502.429535]
+===== STEP: 1 - IMAGE SIZE: 8 =====
+Epoch [1/ 60] [Image Size: 8] [D loss: -0.994199] [G loss: 3.613499] [Last KID: 0.526426] [Last FID: 423.382599]
+===== STEP: 2 - IMAGE SIZE: 16 =====
+Epoch [1/ 60] [Image Size: 16] [D loss: -1.432142] [G loss: 4.660237] [Last KID: 0.610241] [Last FID: 467.325531]
+===== STEP: 3 - IMAGE SIZE: 32 =====
+Epoch [1/ 60] [Image Size: 32] [D loss: -4.210392] [G loss: 5.140310] [Last KID: 0.698526] [Last FID: 522.442566]
+===== STEP: 4 - IMAGE SIZE: 64 =====
+Epoch [1/ 60] [Image Size: 64] [D loss: -13.274637] [G loss: 15.769439] [Last KID: 0.559619] [Last FID: 442.407440]
+===== STEP: 5 - IMAGE SIZE: 128 =====
+Epoch [1/ 60] [Image Size: 128] [D loss: -44.078609] [G loss: 52.753365] [Last KID: 0.445333] [Last FID: 402.294495]
+Epoch [60/ 60] [Image Size: 128] [D loss: -38.038658] [G loss: 51.849110] [Last KID: 0.268975] [Last FID: 301.491821]
+Training Time: 87.319597 minutes.
+
+----- Current KID Score: 0.25437065958976746 || Current FID Score: 295.1949462890625 -----
+
+Current Values: 0.001 LEARNING RATE - 0.0001 LEARNING RATE GEN - 0.5 B_1 - 0.9 B_2 - 60 epochs
+
+===== STEP: 0 - IMAGE SIZE: 4 =====
+Epoch [1/ 60] [Image Size: 4] [D loss: -1.040033] [G loss: 2.260817] [Last KID: 0.717618] [Last FID: 501.720337]
+===== STEP: 1 - IMAGE SIZE: 8 =====
+Epoch [1/ 60] [Image Size: 8] [D loss: -1.813123] [G loss: 4.214170] [Last KID: 0.527297] [Last FID: 418.475433]
+===== STEP: 2 - IMAGE SIZE: 16 =====
+Epoch [1/ 60] [Image Size: 16] [D loss: -1.260218] [G loss: 3.291047] [Last KID: 0.617079] [Last FID: 494.985962]
+===== STEP: 3 - IMAGE SIZE: 32 =====
+Epoch [1/ 60] [Image Size: 32] [D loss: -6.113778] [G loss: 5.036192] [Last KID: 0.720533] [Last FID: 529.489990]
+===== STEP: 4 - IMAGE SIZE: 64 =====
+Epoch [1/ 60] [Image Size: 64] [D loss: -13.265507] [G loss: 20.780716] [Last KID: 0.531581] [Last FID: 434.933563]
+===== STEP: 5 - IMAGE SIZE: 128 =====
+Epoch [1/ 60] [Image Size: 128] [D loss: -37.038918] [G loss: 47.589321] [Last KID: 0.438454] [Last FID: 390.344940]
+Epoch [60/ 60] [Image Size: 128] [D loss: -38.495869] [G loss: 57.129250] [Last KID: 0.249315] [Last FID: 286.638977]
+Training Time: 87.484116 minutes.
+
+----- Current KID Score: 0.24206678569316864 || Current FID Score: 291.47747802734375 -----
+
+Current Values: 0.001 LEARNING RATE - 0.0001 LEARNING RATE GEN - 0.5 B_1 - 0.999 B_2 - 60 epochs
+
+===== STEP: 0 - IMAGE SIZE: 4 =====
+Epoch [1/ 60] [Image Size: 4] [D loss: -2.750797] [G loss: 4.317331] [Last KID: 0.707550] [Last FID: 502.698486]
+===== STEP: 1 - IMAGE SIZE: 8 =====
+Epoch [1/ 60] [Image Size: 8] [D loss: -0.245905] [G loss: 2.255325] [Last KID: 0.495795] [Last FID: 407.404968]
+===== STEP: 2 - IMAGE SIZE: 16 =====
+Epoch [1/ 60] [Image Size: 16] [D loss: -2.005594] [G loss: 5.065263] [Last KID: 0.649049] [Last FID: 513.393372]
+===== STEP: 3 - IMAGE SIZE: 32 =====
+Epoch [1/ 60] [Image Size: 32] [D loss: -3.986796] [G loss: 3.392613] [Last KID: 0.718784] [Last FID: 538.503174]
+===== STEP: 4 - IMAGE SIZE: 64 =====
+Epoch [1/ 60] [Image Size: 64] [D loss: -11.898829] [G loss: 15.659957] [Last KID: 0.546392] [Last FID: 450.916290]
+===== STEP: 5 - IMAGE SIZE: 128 =====
+Epoch [1/ 60] [Image Size: 128] [D loss: -40.036312] [G loss: 43.606857] [Last KID: 0.428869] [Last FID: 397.085632]
+Epoch [60/ 60] [Image Size: 128] [D loss: -37.232258] [G loss: 66.384476] [Last KID: 0.336442] [Last FID: 343.171387]
+Training Time: 87.321084 minutes.
+
+----- Current KID Score: 0.324407160282135 || Current FID Score: 339.72833251953125 -----
+
+Current Values: 0.0002 LEARNING RATE - 1e-05 LEARNING RATE GEN - 0 B_1 - 0.9 B_2 - 60 epochs
+
+===== STEP: 0 - IMAGE SIZE: 4 =====
+Epoch [1/ 60] [Image Size: 4] [D loss: -2.827900] [G loss: 4.128400] [Last KID: 0.730673] [Last FID: 507.024017]
+===== STEP: 1 - IMAGE SIZE: 8 =====
+Epoch [1/ 60] [Image Size: 8] [D loss: -2.619865] [G loss: 5.132637] [Last KID: 0.501197] [Last FID: 407.840820]
+===== STEP: 2 - IMAGE SIZE: 16 =====
+Epoch [1/ 60] [Image Size: 16] [D loss: -2.168315] [G loss: 5.687349] [Last KID: 0.634645] [Last FID: 492.094360]
+===== STEP: 3 - IMAGE SIZE: 32 =====
+Epoch [1/ 60] [Image Size: 32] [D loss: -5.341703] [G loss: 6.309017] [Last KID: 0.730791] [Last FID: 541.571594]
+===== STEP: 4 - IMAGE SIZE: 64 =====
+Epoch [1/ 60] [Image Size: 64] [D loss: -12.941065] [G loss: 13.494641] [Last KID: 0.554056] [Last FID: 453.947235]
+===== STEP: 5 - IMAGE SIZE: 128 =====
+Epoch [1/ 60] [Image Size: 128] [D loss: -34.717262] [G loss: 55.950653] [Last KID: 0.454141] [Last FID: 394.413055]
+Epoch [60/ 60] [Image Size: 128] [D loss: -40.012543] [G loss: 57.684357] [Last KID: 0.251866] [Last FID: 281.066711]
+Training Time: 87.341312 minutes.
+
+----- Current KID Score: 0.24966035783290863 || Current FID Score: 284.48321533203125 -----
+
+Current Values: 0.0002 LEARNING RATE - 1e-05 LEARNING RATE GEN - 0 B_1 - 0.999 B_2 - 60 epochs
+
+===== STEP: 0 - IMAGE SIZE: 4 =====
+Epoch [1/ 60] [Image Size: 4] [D loss: 0.483304] [G loss: 0.073389] [Last KID: 0.725005] [Last FID: 502.043457]
+===== STEP: 1 - IMAGE SIZE: 8 =====
+Epoch [1/ 60] [Image Size: 8] [D loss: -1.034528] [G loss: 2.498996] [Last KID: 0.575684] [Last FID: 437.857391]
+===== STEP: 2 - IMAGE SIZE: 16 =====
+Epoch [1/ 60] [Image Size: 16] [D loss: -2.312904] [G loss: 4.136796] [Last KID: 0.597250] [Last FID: 466.097717]
+===== STEP: 3 - IMAGE SIZE: 32 =====
+Epoch [1/ 60] [Image Size: 32] [D loss: -5.197347] [G loss: 4.700243] [Last KID: 0.661860] [Last FID: 513.645081]
+===== STEP: 4 - IMAGE SIZE: 64 =====
+Epoch [1/ 60] [Image Size: 64] [D loss: -13.443256] [G loss: 17.778526] [Last KID: 0.562770] [Last FID: 460.551849]
+===== STEP: 5 - IMAGE SIZE: 128 =====
+Epoch [1/ 60] [Image Size: 128] [D loss: -38.517246] [G loss: 51.925087] [Last KID: 0.455365] [Last FID: 400.579712]
+Epoch [60/ 60] [Image Size: 128] [D loss: -40.433006] [G loss: 63.067944] [Last KID: 0.257576] [Last FID: 289.509460]
+Training Time: 87.473284 minutes.
+
+----- Current KID Score: 0.2671875059604645 || Current FID Score: 293.541015625 -----
+
+Current Values: 0.0002 LEARNING RATE - 1e-05 LEARNING RATE GEN - 0.5 B_1 - 0.9 B_2 - 60 epochs
+
+===== STEP: 0 - IMAGE SIZE: 4 =====
+Epoch [1/ 60] [Image Size: 4] [D loss: -0.497101] [G loss: 1.254932] [Last KID: 0.719718] [Last FID: 504.461365]
+===== STEP: 1 - IMAGE SIZE: 8 =====
+Epoch [1/ 60] [Image Size: 8] [D loss: -1.737389] [G loss: 3.466386] [Last KID: 0.633595] [Last FID: 466.197327]
+===== STEP: 2 - IMAGE SIZE: 16 =====
+Epoch [1/ 60] [Image Size: 16] [D loss: -1.368648] [G loss: 3.618079] [Last KID: 0.567814] [Last FID: 470.187714]
+===== STEP: 3 - IMAGE SIZE: 32 =====
+Epoch [1/ 60] [Image Size: 32] [D loss: -5.111155] [G loss: 4.561024] [Last KID: 0.781713] [Last FID: 556.919983]
+===== STEP: 4 - IMAGE SIZE: 64 =====
+Epoch [1/ 60] [Image Size: 64] [D loss: -13.571260] [G loss: 15.059112] [Last KID: 0.574369] [Last FID: 460.817200]
+===== STEP: 5 - IMAGE SIZE: 128 =====
+Epoch [1/ 60] [Image Size: 128] [D loss: -47.458057] [G loss: 42.825531] [Last KID: 0.466282] [Last FID: 410.018372]
+Epoch [60/ 60] [Image Size: 128] [D loss: -44.337170] [G loss: 50.077396] [Last KID: 0.291493] [Last FID: 314.075500]
+Training Time: 87.594376 minutes.
+
+----- Current KID Score: 0.29115888476371765 || Current FID Score: 312.7784118652344 -----
+
+Current Values: 0.0002 LEARNING RATE - 1e-05 LEARNING RATE GEN - 0.5 B_1 - 0.999 B_2 - 60 epochs
+
+===== STEP: 0 - IMAGE SIZE: 4 =====
+Epoch [1/ 60] [Image Size: 4] [D loss: -0.479846] [G loss: 0.335163] [Last KID: 0.723454] [Last FID: 500.546600]
+===== STEP: 1 - IMAGE SIZE: 8 =====
+Epoch [1/ 60] [Image Size: 8] [D loss: 0.177427] [G loss: 0.868928] [Last KID: 0.427636] [Last FID: 367.929993]
+===== STEP: 2 - IMAGE SIZE: 16 =====
+Epoch [1/ 60] [Image Size: 16] [D loss: -2.311987] [G loss: 3.934744] [Last KID: 0.581894] [Last FID: 474.243958]
+===== STEP: 3 - IMAGE SIZE: 32 =====
+Epoch [1/ 60] [Image Size: 32] [D loss: -4.943665] [G loss: 4.336013] [Last KID: 0.747003] [Last FID: 547.084412]
+===== STEP: 4 - IMAGE SIZE: 64 =====
+Epoch [1/ 60] [Image Size: 64] [D loss: -13.373967] [G loss: 17.747320] [Last KID: 0.573694] [Last FID: 440.446899]
+===== STEP: 5 - IMAGE SIZE: 128 =====
+Epoch [1/ 60] [Image Size: 128] [D loss: -41.757050] [G loss: 46.312794] [Last KID: 0.455629] [Last FID: 398.516022]
+Epoch [60/ 60] [Image Size: 128] [D loss: -31.617039] [G loss: 68.746819] [Last KID: 0.267506] [Last FID: 288.369354]
+Training Time: 87.590410 minutes.
+
+----- Current KID Score: 0.2643493115901947 || Current FID Score: 295.99932861328125 -----
+
+Current Values: 0.0002 LEARNING RATE - 0.0002 LEARNING RATE GEN - 0 B_1 - 0.9 B_2 - 60 epochs
+
+===== STEP: 0 - IMAGE SIZE: 4 =====
+Epoch [1/ 60] [Image Size: 4] [D loss: -2.931551] [G loss: 4.344118] [Last KID: 0.720276] [Last FID: 502.784332]
+===== STEP: 1 - IMAGE SIZE: 8 =====
+Epoch [1/ 60] [Image Size: 8] [D loss: -2.241369] [G loss: 5.049272] [Last KID: 0.581286] [Last FID: 450.569427]
+===== STEP: 2 - IMAGE SIZE: 16 =====
+Epoch [1/ 60] [Image Size: 16] [D loss: -1.293564] [G loss: 3.834084] [Last KID: 0.515087] [Last FID: 413.479370]
+===== STEP: 3 - IMAGE SIZE: 32 =====
+Epoch [1/ 60] [Image Size: 32] [D loss: -4.837413] [G loss: 4.455129] [Last KID: 0.672291] [Last FID: 526.563293]
+===== STEP: 4 - IMAGE SIZE: 64 =====
+Epoch [1/ 60] [Image Size: 64] [D loss: -13.782821] [G loss: 11.895431] [Last KID: 0.520000] [Last FID: 437.987091]
+===== STEP: 5 - IMAGE SIZE: 128 =====
+Epoch [1/ 60] [Image Size: 128] [D loss: -41.228001] [G loss: 54.712532] [Last KID: 0.428764] [Last FID: 390.532166]
+Epoch [60/ 60] [Image Size: 128] [D loss: -31.064362] [G loss: 65.755043] [Last KID: 0.284615] [Last FID: 299.386536]
+Training Time: 87.587622 minutes.
+
+----- Current KID Score: 0.29838377237319946 || Current FID Score: 305.3403625488281 -----
+
+Current Values: 0.0002 LEARNING RATE - 0.0002 LEARNING RATE GEN - 0 B_1 - 0.999 B_2 - 60 epochs
+
+===== STEP: 0 - IMAGE SIZE: 4 =====
+Epoch [1/ 60] [Image Size: 4] [D loss: -0.399856] [G loss: 0.517522] [Last KID: 0.729112] [Last FID: 504.094208]
+===== STEP: 1 - IMAGE SIZE: 8 =====
+Epoch [1/ 60] [Image Size: 8] [D loss: -2.370793] [G loss: 4.628014] [Last KID: 0.584656] [Last FID: 459.985535]
+===== STEP: 2 - IMAGE SIZE: 16 =====
+Epoch [1/ 60] [Image Size: 16] [D loss: -2.167080] [G loss: 4.659910] [Last KID: 0.553396] [Last FID: 449.201843]
+===== STEP: 3 - IMAGE SIZE: 32 =====
+Epoch [1/ 60] [Image Size: 32] [D loss: -3.855513] [G loss: 5.272792] [Last KID: 0.673115] [Last FID: 497.512848]
+===== STEP: 4 - IMAGE SIZE: 64 =====
+Epoch [1/ 60] [Image Size: 64] [D loss: -14.004192] [G loss: 19.606665] [Last KID: 0.523992] [Last FID: 436.637115]
+===== STEP: 5 - IMAGE SIZE: 128 =====
+Epoch [1/ 60] [Image Size: 128] [D loss: -30.265070] [G loss: 48.517952] [Last KID: 0.452011] [Last FID: 397.391510]
+Epoch [60/ 60] [Image Size: 128] [D loss: -35.405617] [G loss: 61.287182] [Last KID: 0.292020] [Last FID: 316.583374]
+Training Time: 88.049747 minutes.
+
+----- Current KID Score: 0.2897079586982727 || Current FID Score: 313.273193359375 -----
+
+Current Values: 0.0002 LEARNING RATE - 0.0002 LEARNING RATE GEN - 0.5 B_1 - 0.9 B_2 - 60 epochs
+
+===== STEP: 0 - IMAGE SIZE: 4 =====
+Epoch [1/ 60] [Image Size: 4] [D loss: -2.074233] [G loss: 3.556260] [Last KID: 0.716168] [Last FID: 505.942413]
+===== STEP: 1 - IMAGE SIZE: 8 =====
+Epoch [1/ 60] [Image Size: 8] [D loss: -1.682886] [G loss: 3.624728] [Last KID: 0.418247] [Last FID: 362.738342]
+===== STEP: 2 - IMAGE SIZE: 16 =====
+Epoch [1/ 60] [Image Size: 16] [D loss: -2.414490] [G loss: 5.027575] [Last KID: 0.593024] [Last FID: 469.085724]
+===== STEP: 3 - IMAGE SIZE: 32 =====
+Epoch [1/ 60] [Image Size: 32] [D loss: -6.024615] [G loss: 5.980846] [Last KID: 0.751428] [Last FID: 541.305969]
+===== STEP: 4 - IMAGE SIZE: 64 =====
+Epoch [1/ 60] [Image Size: 64] [D loss: -13.677913] [G loss: 17.243643] [Last KID: 0.546578] [Last FID: 454.237579]
+===== STEP: 5 - IMAGE SIZE: 128 =====
+Epoch [1/ 60] [Image Size: 128] [D loss: -37.872898] [G loss: 38.736092] [Last KID: 0.430380] [Last FID: 388.482056]
+Epoch [60/ 60] [Image Size: 128] [D loss: -38.950279] [G loss: 63.153851] [Last KID: 0.323644] [Last FID: 330.357513]
+Training Time: 88.347822 minutes.
+
+----- Current KID Score: 0.31798020005226135 || Current FID Score: 335.8616943359375 -----
+
+Current Values: 0.0002 LEARNING RATE - 0.0002 LEARNING RATE GEN - 0.5 B_1 - 0.999 B_2 - 60 epochs
+
+===== STEP: 0 - IMAGE SIZE: 4 =====
+Epoch [1/ 60] [Image Size: 4] [D loss: -0.190690] [G loss: 1.330546] [Last KID: 0.732827] [Last FID: 502.942963]
+===== STEP: 1 - IMAGE SIZE: 8 =====
+Epoch [1/ 60] [Image Size: 8] [D loss: -1.513894] [G loss: 3.165130] [Last KID: 0.559065] [Last FID: 438.147949]
+===== STEP: 2 - IMAGE SIZE: 16 =====
+Epoch [1/ 60] [Image Size: 16] [D loss: -2.869502] [G loss: 6.504383] [Last KID: 0.596225] [Last FID: 480.661041]
+===== STEP: 3 - IMAGE SIZE: 32 =====
+Epoch [1/ 60] [Image Size: 32] [D loss: -4.548882] [G loss: 5.291306] [Last KID: 0.640269] [Last FID: 511.711853]
+===== STEP: 4 - IMAGE SIZE: 64 =====
