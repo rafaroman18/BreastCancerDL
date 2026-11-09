@@ -30,12 +30,14 @@ A **sGAN** (semi-supervised GAN) and a **StyleGAN** were tested. The sGAN gave n
 Key improvement: instead of training at 56×56 (the classifier's resolution), the dataset is **rescaled to 128×128** to get 6 progressive training steps instead of 4. This took the output from blurry to sharp images in just 2.5 h.
 
 <p align="center">
-  <img src="docs/assets/sgan_vs_stylegan.png" alt="Comparison between sGAN and StyleGAN" width="70%">
+  <img src="docs/assets/sgan_vs_stylegan.png" alt="Comparison between sGAN and StyleGAN" width="60%">
   <br><em>Top: sGAN after 24 h. Bottom: StyleGAN after 2.5 h, using 128×128 during training.</em>
 </p>
 
 ### 2. Two GANs, one per class, with hyperparameter tuning
 Each class has its own StyleGAN, so each generator learns a single distribution. A **grid search** was run over the generator and discriminator learning rates and Adam's β₁ and β₂. The criterion was the **KID Score** computed on 10,000 images. Both searches took about 78 h in total.
+
+This was the best configuration:
 
 | Model | Time | KID | FID | Gen. LR | Dis. LR | β₁ | β₂ |
 |---|---|---|---|---|---|---|---|
@@ -46,6 +48,7 @@ Tuning reduced **convergence failures** (completely black images) and improved s
 
 <p align="center">
   <img src="docs/assets/kid_fid_curves.png" alt="KID and FID curves during training" width="70%">
+  <br><em>Note: both of these metrics represent better synthetic images when their values are close to zero.</em>
 </p>
 
 ### 3. Quality filtering of synthetic images (KID)
@@ -108,7 +111,10 @@ Each experiment with synthetic images trains 100 StyleGANs (5 folds × 2 classes
 
 <p align="center">
   <img src="docs/assets/execution_time_plot.png" alt="Execution time per experiment" width="50%">
-  <img src="docs/assets/convergence_failures.png" alt="Convergence failures per experiment" width="45%">
+</p>
+
+<p align="center">
+  <img src="docs/assets/convergence_failures.png" alt="Convergence failures per experiment" width="60%">
 </p>
 
 Convergence failures occurred in about **10 %** of the trainings (12 per experiment, 8 in the 100 % one). The synthetic images from those cases were kept instead of retraining, to avoid multiplying compute time.
